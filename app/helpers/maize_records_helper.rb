@@ -1,0 +1,2 @@
+module MaizeRecordsHelper
+end
