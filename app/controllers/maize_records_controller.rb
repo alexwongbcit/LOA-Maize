@@ -1,6 +1,6 @@
 class MaizeRecordsController < ApplicationController
   def index
-    @maize_records = MaizeRecord.all(:include => :site)
+    @maize_records = MaizeRecord.all(:include => :site, :order => 'id ASC')
   end
 
   def show
@@ -12,11 +12,19 @@ class MaizeRecordsController < ApplicationController
   end
 
   def update
-    @maize_record = MaizeRecord.update_attributes(params[:maize_record])
+    if @maize_record = MaizeRecord.update(params[:id], params[:maize_record])
+      redirect_to maize_records_path
+    else
+      render :edit
+    end
   end
 
   def create
-    @maize_record = MaizeRecord.create(params[:maize_record])
+    if @maize_record = MaizeRecord.create(params[:maize_record])
+      redirect_to @maize_record
+    else
+      render :new
+    end
   end
 
   def destroy

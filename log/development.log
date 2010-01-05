@@ -2093,3 +2093,2455 @@ Rendering maize_records/edit
 Rendered maize_records/_fields (1.7ms)
 Rendered maize_records/_form (3.7ms)
 Completed in 14ms (View: 4, DB: 1) | 200 OK [http://localhost/maize_records/2/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#edit (for 127.0.0.1 at 2010-01-04 20:19:41) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mMaizeRecord Load (1.2ms)[0m   [0;1mSELECT * FROM "maize_records" WHERE ("maize_records"."id" = 2) [0m
+Rendering maize_records/edit
+Rendered maize_records/_fields (3.8ms)
+Rendered maize_records/_form (9.2ms)
+Completed in 25ms (View: 10, DB: 1) | 200 OK [http://localhost/maize_records/2/edit]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#edit (for 127.0.0.1 at 2010-01-04 20:20:07) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mMaizeRecord Load (0.6ms)[0m   [0mSELECT * FROM "maize_records" WHERE ("maize_records"."id" = 2) [0m
+Rendering maize_records/edit
+Rendered maize_records/_fields (2.6ms)
+Rendered maize_records/_form (9.6ms)
+Completed in 25ms (View: 15, DB: 1) | 200 OK [http://localhost/maize_records/2/edit]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#index (for 127.0.0.1 at 2010-01-04 20:20:08) [GET]
+  [4;36;1mMaizeRecord Load (2.0ms)[0m   [0;1mSELECT * FROM "maize_records" [0m
+  [4;35;1mSite Load (1.3ms)[0m   [0mSELECT * FROM "sites" WHERE ("sites"."id" IN (44,33,22,11,6,45,34,23,12,7,46,35,24,13,8,47,36,25,14,9,48,37,26,15,50,49,38,27,16,40,39,28,17,1,41,30,29,18,2,42,31,20,19,3,43,32,21,10,4,5)) [0m
+Rendering maize_records/index
+Rendered maize_records/_maize_record (3.9ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Completed in 213ms (View: 191, DB: 3) | 200 OK [http://localhost/maize_records]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#edit (for 127.0.0.1 at 2010-01-04 20:20:11) [GET]
+  Parameters: {"id"=>"10"}
+  [4;36;1mMaizeRecord Load (0.6ms)[0m   [0;1mSELECT * FROM "maize_records" WHERE ("maize_records"."id" = 10) [0m
+Rendering maize_records/edit
+Rendered maize_records/_fields (2.1ms)
+Rendered maize_records/_form (4.7ms)
+Completed in 16ms (View: 6, DB: 1) | 200 OK [http://localhost/maize_records/10/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#index (for 127.0.0.1 at 2010-01-04 20:20:13) [GET]
+  [4;35;1mMaizeRecord Load (1.9ms)[0m   [0mSELECT * FROM "maize_records" [0m
+  [4;36;1mSite Load (1.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."id" IN (44,33,22,11,6,45,34,23,12,7,46,35,24,13,8,47,36,25,14,9,48,37,26,15,50,49,38,27,16,40,39,28,17,1,41,30,29,18,2,42,31,20,19,3,43,32,21,10,4,5)) [0m
+Rendering maize_records/index
+Rendered maize_records/_maize_record (3.8ms)
+Rendered maize_records/_maize_record (2.9ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (84.5ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.9ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.9ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (3.0ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.9ms)
+Rendered maize_records/_maize_record (2.9ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.9ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (3.1ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (3.0ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (3.0ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.9ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.9ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (3.0ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Completed in 300ms (View: 278, DB: 3) | 200 OK [http://localhost/maize_records]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#edit (for 127.0.0.1 at 2010-01-04 20:20:15) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mMaizeRecord Load (0.5ms)[0m   [0mSELECT * FROM "maize_records" WHERE ("maize_records"."id" = 1) [0m
+Rendering maize_records/edit
+Rendered maize_records/_fields (1.8ms)
+Rendered maize_records/_form (5.3ms)
+Completed in 22ms (View: 7, DB: 1) | 200 OK [http://localhost/maize_records/1/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#edit (for 127.0.0.1 at 2010-01-04 20:20:17) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mMaizeRecord Load (0.7ms)[0m   [0;1mSELECT * FROM "maize_records" WHERE ("maize_records"."id" = 2) [0m
+Rendering maize_records/edit
+Rendered maize_records/_fields (1.8ms)
+Rendered maize_records/_form (4.1ms)
+Completed in 15ms (View: 5, DB: 1) | 200 OK [http://localhost/maize_records/2/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#edit (for 127.0.0.1 at 2010-01-04 20:20:32) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mMaizeRecord Load (0.5ms)[0m   [0mSELECT * FROM "maize_records" WHERE ("maize_records"."id" = 1) [0m
+Rendering maize_records/edit
+Rendered maize_records/_fields (1.6ms)
+Rendered maize_records/_form (3.8ms)
+Completed in 14ms (View: 5, DB: 1) | 200 OK [http://localhost/maize_records/1/edit]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-04 20:21:28) [GET]
+
+ActionController::RoutingError (No route matches "/items" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#edit (for 127.0.0.1 at 2010-01-04 20:23:05) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mMaizeRecord Load (0.6ms)[0m   [0;1mSELECT * FROM "maize_records" WHERE ("maize_records"."id" = 1) [0m
+Rendering maize_records/edit
+Rendered maize_records/_fields (1.6ms)
+Rendered maize_records/_form (4.5ms)
+Completed in 18ms (View: 8, DB: 1) | 200 OK [http://localhost/maize_records/1/edit]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#edit (for 127.0.0.1 at 2010-01-04 20:24:32) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mMaizeRecord Load (0.6ms)[0m   [0mSELECT * FROM "maize_records" WHERE ("maize_records"."id" = 1) [0m
+Rendering maize_records/edit
+Rendered maize_records/_fields (2.0ms)
+Rendered maize_records/_form (4.8ms)
+Completed in 16ms (View: 6, DB: 1) | 200 OK [http://localhost/maize_records/1/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#update (for 127.0.0.1 at 2010-01-04 20:24:49) [PUT]
+  Parameters: {"commit"=>"Save", "maize_record"=>{"description"=>"(2730n2350 cal B.P. at two-sigmas; Beta-103315 Zarillo et al 2008:5007) estimated using oxcal with 2490 +/- 40\r\n\r\n\r\nʷʷčšx̌x̌", "age"=>"2490", "site_id"=>"1"}, "authenticity_token"=>"n3csn/5aD154lD/022BzmbY+0GE8FSqAtguQffdVIQ4=", "id"=>"1"}
+
+NoMethodError (undefined method `update_attributes' for #<Class:0x2799ef4>):
+  app/controllers/maize_records_controller.rb:15:in `update'
+
+Rendered rescues/_trace (30.8ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#update (for 127.0.0.1 at 2010-01-04 20:25:05) [PUT]
+  Parameters: {"commit"=>"Save", "maize_record"=>{"description"=>"(2730n2350 cal B.P. at two-sigmas; Beta-103315 Zarillo et al 2008:5007) estimated using oxcal with 2490 +/- 40\r\n\r\n\r\nʷʷčšx̌x̌", "age"=>"2490", "site_id"=>"1"}, "authenticity_token"=>"n3csn/5aD154lD/022BzmbY+0GE8FSqAtguQffdVIQ4=", "id"=>"1"}
+
+ArgumentError (wrong number of arguments (1 for 2)):
+  app/controllers/maize_records_controller.rb:15:in `update'
+  app/controllers/maize_records_controller.rb:15:in `update'
+
+Rendered rescues/_trace (29.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#update (for 127.0.0.1 at 2010-01-04 20:25:53) [PUT]
+  Parameters: {"commit"=>"Save", "maize_record"=>{"description"=>"(2730n2350 cal B.P. at two-sigmas; Beta-103315 Zarillo et al 2008:5007) estimated using oxcal with 2490 +/- 40\r\n\r\n\r\nʷʷčšx̌x̌", "age"=>"2490", "site_id"=>"1"}, "authenticity_token"=>"n3csn/5aD154lD/022BzmbY+0GE8FSqAtguQffdVIQ4=", "id"=>"1"}
+  [4;36;1mMaizeRecord Load (0.6ms)[0m   [0;1mSELECT * FROM "maize_records" WHERE ("maize_records"."id" = 1) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMaizeRecord Update (0.4ms)[0m   [0;1mUPDATE "maize_records" SET "updated_at" = '2010-01-05 04:25:53.651006' WHERE "id" = 1[0m
+  [4;35;1mSQL (1.8ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/maize_records
+Completed in 16ms (DB: 3) | 302 Found [http://localhost/maize_records/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#index (for 127.0.0.1 at 2010-01-04 20:25:53) [GET]
+  [4;36;1mMaizeRecord Load (2.1ms)[0m   [0;1mSELECT * FROM "maize_records" [0m
+  [4;35;1mSite Load (1.5ms)[0m   [0mSELECT * FROM "sites" WHERE ("sites"."id" IN (44,33,22,11,6,45,34,23,12,7,46,35,24,13,8,47,36,25,14,9,48,37,26,15,50,49,38,27,16,40,39,28,17,1,41,30,29,18,2,42,31,20,19,3,43,32,21,10,4,5)) [0m
+Rendering maize_records/index
+Rendered maize_records/_maize_record (4.4ms)
+Rendered maize_records/_maize_record (3.0ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (70.4ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (3.0ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (3.0ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.9ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.9ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (3.1ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (3.0ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.9ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Completed in 287ms (View: 263, DB: 4) | 200 OK [http://localhost/maize_records]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#edit (for 127.0.0.1 at 2010-01-04 20:25:56) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mMaizeRecord Load (0.6ms)[0m   [0;1mSELECT * FROM "maize_records" WHERE ("maize_records"."id" = 2) [0m
+Rendering maize_records/edit
+Rendered maize_records/_fields (1.7ms)
+Rendered maize_records/_form (4.0ms)
+Completed in 13ms (View: 5, DB: 1) | 200 OK [http://localhost/maize_records/2/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#index (for 127.0.0.1 at 2010-01-04 20:26:01) [GET]
+  [4;35;1mMaizeRecord Load (2.3ms)[0m   [0mSELECT * FROM "maize_records" [0m
+  [4;36;1mSite Load (1.5ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."id" IN (44,33,22,11,6,45,34,23,12,7,46,35,24,13,8,47,36,25,14,9,48,37,26,15,50,49,38,27,16,40,39,28,17,1,41,30,29,18,2,42,31,20,19,3,43,32,21,10,4,5)) [0m
+Rendering maize_records/index
+Rendered maize_records/_maize_record (4.4ms)
+Rendered maize_records/_maize_record (3.1ms)
+Rendered maize_records/_maize_record (3.1ms)
+Rendered maize_records/_maize_record (3.1ms)
+Rendered maize_records/_maize_record (3.1ms)
+Rendered maize_records/_maize_record (3.1ms)
+Rendered maize_records/_maize_record (2.9ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (3.1ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.9ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (3.0ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (94.9ms)
+Rendered maize_records/_maize_record (3.9ms)
+Rendered maize_records/_maize_record (3.0ms)
+Rendered maize_records/_maize_record (2.9ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (4.6ms)
+Rendered maize_records/_maize_record (3.0ms)
+Rendered maize_records/_maize_record (2.9ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (3.2ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.9ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (3.0ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (3.0ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (3.2ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (3.0ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (3.0ms)
+Rendered maize_records/_maize_record (2.9ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.9ms)
+Completed in 322ms (View: 297, DB: 4) | 200 OK [http://localhost/maize_records]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#edit (for 127.0.0.1 at 2010-01-04 20:26:03) [GET]
+  Parameters: {"id"=>"10"}
+  [4;35;1mMaizeRecord Load (0.6ms)[0m   [0mSELECT * FROM "maize_records" WHERE ("maize_records"."id" = 10) [0m
+Rendering maize_records/edit
+Rendered maize_records/_fields (2.6ms)
+Rendered maize_records/_form (5.8ms)
+Completed in 18ms (View: 7, DB: 1) | 200 OK [http://localhost/maize_records/10/edit]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#index (for 127.0.0.1 at 2010-01-04 20:26:05) [GET]
+  [4;36;1mMaizeRecord Load (2.0ms)[0m   [0;1mSELECT * FROM "maize_records" [0m
+  [4;35;1mSite Load (1.3ms)[0m   [0mSELECT * FROM "sites" WHERE ("sites"."id" IN (44,33,22,11,6,45,34,23,12,7,46,35,24,13,8,47,36,25,14,9,48,37,26,15,50,49,38,27,16,40,39,28,17,1,41,30,29,18,2,42,31,20,19,3,43,32,21,10,4,5)) [0m
+Rendering maize_records/index
+Rendered maize_records/_maize_record (3.9ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.9ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.9ms)
+Rendered maize_records/_maize_record (2.8ms)
+Completed in 305ms (View: 282, DB: 4) | 200 OK [http://localhost/maize_records]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#edit (for 127.0.0.1 at 2010-01-04 20:26:08) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mMaizeRecord Load (0.5ms)[0m   [0;1mSELECT * FROM "maize_records" WHERE ("maize_records"."id" = 2) [0m
+Rendering maize_records/edit
+Rendered maize_records/_fields (1.9ms)
+Rendered maize_records/_form (4.4ms)
+Completed in 15ms (View: 5, DB: 1) | 200 OK [http://localhost/maize_records/2/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#update (for 127.0.0.1 at 2010-01-04 20:26:12) [PUT]
+  Parameters: {"commit"=>"Save", "maize_record"=>{"description"=>"ɬƛ̓ƛ̓ƛ̓", "age"=>"2495", "site_id"=>"2"}, "authenticity_token"=>"n3csn/5aD154lD/022BzmbY+0GE8FSqAtguQffdVIQ4=", "id"=>"2"}
+  [4;35;1mMaizeRecord Load (0.5ms)[0m   [0mSELECT * FROM "maize_records" WHERE ("maize_records"."id" = 2) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMaizeRecord Update (0.3ms)[0m   [0mUPDATE "maize_records" SET "updated_at" = '2010-01-05 04:26:12.423929' WHERE "id" = 2[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/maize_records
+Completed in 12ms (DB: 2) | 302 Found [http://localhost/maize_records/2]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#index (for 127.0.0.1 at 2010-01-04 20:26:12) [GET]
+  [4;35;1mMaizeRecord Load (1.9ms)[0m   [0mSELECT * FROM "maize_records" [0m
+  [4;36;1mSite Load (1.2ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."id" IN (44,33,22,11,6,45,34,23,12,7,46,35,24,13,8,47,36,25,14,9,48,37,26,15,50,49,38,27,16,40,39,28,17,1,41,30,29,18,2,42,31,20,19,3,43,32,21,10,4,5)) [0m
+Rendering maize_records/index
+Rendered maize_records/_maize_record (4.0ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (3.1ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Completed in 213ms (View: 191, DB: 3) | 200 OK [http://localhost/maize_records]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#edit (for 127.0.0.1 at 2010-01-04 20:26:16) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mMaizeRecord Load (0.6ms)[0m   [0mSELECT * FROM "maize_records" WHERE ("maize_records"."id" = 1) [0m
+Rendering maize_records/edit
+Rendered maize_records/_fields (2.1ms)
+Rendered maize_records/_form (85.7ms)
+Completed in 97ms (View: 87, DB: 1) | 200 OK [http://localhost/maize_records/1/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#edit (for 127.0.0.1 at 2010-01-04 20:26:23) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mMaizeRecord Load (0.5ms)[0m   [0;1mSELECT * FROM "maize_records" WHERE ("maize_records"."id" = 2) [0m
+Rendering maize_records/edit
+Rendered maize_records/_fields (1.7ms)
+Rendered maize_records/_form (4.1ms)
+Completed in 14ms (View: 5, DB: 1) | 200 OK [http://localhost/maize_records/2/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#update (for 127.0.0.1 at 2010-01-04 20:26:27) [PUT]
+  Parameters: {"commit"=>"Save", "maize_record"=>{"description"=>"əʔʔʔ", "age"=>"2495", "site_id"=>"2"}, "authenticity_token"=>"n3csn/5aD154lD/022BzmbY+0GE8FSqAtguQffdVIQ4=", "id"=>"2"}
+  [4;35;1mMaizeRecord Load (0.5ms)[0m   [0mSELECT * FROM "maize_records" WHERE ("maize_records"."id" = 2) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMaizeRecord Update (0.4ms)[0m   [0mUPDATE "maize_records" SET "updated_at" = '2010-01-05 04:26:27.347079' WHERE "id" = 2[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/maize_records
+Completed in 13ms (DB: 2) | 302 Found [http://localhost/maize_records/2]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#index (for 127.0.0.1 at 2010-01-04 20:26:27) [GET]
+  [4;35;1mMaizeRecord Load (1.9ms)[0m   [0mSELECT * FROM "maize_records" [0m
+  [4;36;1mSite Load (1.2ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."id" IN (44,33,22,11,6,45,34,23,12,7,46,35,24,13,8,47,36,25,14,9,48,37,26,15,50,49,38,27,16,40,39,28,17,1,41,30,29,18,2,42,31,20,19,3,43,32,21,10,4,5)) [0m
+Rendering maize_records/index
+Rendered maize_records/_maize_record (4.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.9ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.9ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Completed in 213ms (View: 192, DB: 3) | 200 OK [http://localhost/maize_records]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#edit (for 127.0.0.1 at 2010-01-04 20:26:29) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mMaizeRecord Load (0.5ms)[0m   [0mSELECT * FROM "maize_records" WHERE ("maize_records"."id" = 2) [0m
+Rendering maize_records/edit
+Rendered maize_records/_fields (1.6ms)
+Rendered maize_records/_form (3.9ms)
+Completed in 13ms (View: 5, DB: 1) | 200 OK [http://localhost/maize_records/2/edit]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#update (for 127.0.0.1 at 2010-01-04 20:26:51) [PUT]
+  Parameters: {"commit"=>"Save", "maize_record"=>{"description"=>"čšššš", "age"=>"2495", "site_id"=>"2"}, "authenticity_token"=>"n3csn/5aD154lD/022BzmbY+0GE8FSqAtguQffdVIQ4=", "id"=>"2"}
+  [4;36;1mMaizeRecord Load (1.8ms)[0m   [0;1mSELECT * FROM "maize_records" WHERE ("maize_records"."id" = 2) [0m
+  [4;35;1mSQL (4.7ms)[0m   [0mBEGIN[0m
+  [4;36;1mMaizeRecord Update (0.6ms)[0m   [0;1mUPDATE "maize_records" SET "updated_at" = '2010-01-05 04:26:51.624331', "description" = E'čšššš' WHERE "id" = 2[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/maize_records
+Completed in 121ms (DB: 8) | 302 Found [http://localhost/maize_records/2]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#index (for 127.0.0.1 at 2010-01-04 20:26:51) [GET]
+  [4;36;1mMaizeRecord Load (2.0ms)[0m   [0;1mSELECT * FROM "maize_records" [0m
+  [4;35;1mSite Load (1.3ms)[0m   [0mSELECT * FROM "sites" WHERE ("sites"."id" IN (44,33,22,11,6,45,34,23,12,7,46,35,24,13,8,47,36,25,14,9,48,37,26,15,50,49,38,27,16,40,39,28,17,1,41,30,29,18,2,42,31,20,19,3,43,32,21,10,4,5)) [0m
+Rendering maize_records/index
+Rendered maize_records/_maize_record (3.9ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (3.5ms)
+Rendered maize_records/_maize_record (3.2ms)
+Rendered maize_records/_maize_record (3.2ms)
+Rendered maize_records/_maize_record (3.3ms)
+Rendered maize_records/_maize_record (3.2ms)
+Rendered maize_records/_maize_record (3.3ms)
+Rendered maize_records/_maize_record (3.2ms)
+Rendered maize_records/_maize_record (3.2ms)
+Rendered maize_records/_maize_record (2.9ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Completed in 382ms (View: 360, DB: 3) | 200 OK [http://localhost/maize_records]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#edit (for 127.0.0.1 at 2010-01-04 20:26:54) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mMaizeRecord Load (0.6ms)[0m   [0;1mSELECT * FROM "maize_records" WHERE ("maize_records"."id" = 2) [0m
+Rendering maize_records/edit
+Rendered maize_records/_fields (2.0ms)
+Rendered maize_records/_form (4.7ms)
+Completed in 15ms (View: 6, DB: 1) | 200 OK [http://localhost/maize_records/2/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#index (for 127.0.0.1 at 2010-01-04 20:27:53) [GET]
+  [4;35;1mMaizeRecord Load (2.1ms)[0m   [0mSELECT * FROM "maize_records" [0m
+  [4;36;1mSite Load (1.2ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."id" IN (44,33,22,11,6,45,34,23,12,7,46,35,24,13,8,47,36,25,14,9,48,37,26,15,50,49,38,27,16,40,39,28,17,1,41,30,29,18,2,42,31,20,19,3,43,32,21,10,4,5)) [0m
+Rendering maize_records/index
+Rendered maize_records/_maize_record (3.9ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (82.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (3.0ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.9ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (3.6ms)
+Rendered maize_records/_maize_record (2.9ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (3.4ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.9ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (3.7ms)
+Rendered maize_records/_maize_record (3.0ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (3.1ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (3.0ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Completed in 300ms (View: 278, DB: 4) | 200 OK [http://localhost/maize_records]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#index (for 127.0.0.1 at 2010-01-04 20:28:04) [GET]
+  [4;35;1mMaizeRecord Load (2.8ms)[0m   [0mSELECT * FROM "maize_records" ORDER BY id ASC[0m
+  [4;36;1mSite Load (1.4ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."id" IN (44,33,22,11,6,45,34,23,12,7,46,35,24,13,8,47,36,25,14,9,48,37,26,15,50,49,38,27,16,40,39,28,17,1,41,30,29,18,2,42,31,20,19,3,43,32,21,10,4,5)) [0m
+Rendering maize_records/index
+Rendered maize_records/_maize_record (4.4ms)
+Rendered maize_records/_maize_record (3.1ms)
+Rendered maize_records/_maize_record (3.1ms)
+Rendered maize_records/_maize_record (2.9ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.9ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (3.0ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (90.1ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.9ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (3.0ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Completed in 307ms (View: 282, DB: 4) | 200 OK [http://localhost/maize_records]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#edit (for 127.0.0.1 at 2010-01-04 20:28:08) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mMaizeRecord Load (0.6ms)[0m   [0mSELECT * FROM "maize_records" WHERE ("maize_records"."id" = 2) [0m
+Rendering maize_records/edit
+Rendered maize_records/_fields (3.8ms)
+Rendered maize_records/_form (6.7ms)
+Completed in 18ms (View: 8, DB: 1) | 200 OK [http://localhost/maize_records/2/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#edit (for 127.0.0.1 at 2010-01-04 20:28:09) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mMaizeRecord Load (0.6ms)[0m   [0;1mSELECT * FROM "maize_records" WHERE ("maize_records"."id" = 1) [0m
+Rendering maize_records/edit
+Rendered maize_records/_fields (2.1ms)
+Rendered maize_records/_form (4.8ms)
+Completed in 16ms (View: 6, DB: 1) | 200 OK [http://localhost/maize_records/1/edit]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#edit (for 127.0.0.1 at 2010-01-04 20:29:10) [GET]
+  Parameters: {"id"=>"14"}
+  [4;35;1mMaizeRecord Load (0.6ms)[0m   [0mSELECT * FROM "maize_records" WHERE ("maize_records"."id" = 14) [0m
+Rendering maize_records/edit
+Rendered maize_records/_fields (2.2ms)
+Rendered maize_records/_form (5.0ms)
+Completed in 16ms (View: 6, DB: 1) | 200 OK [http://localhost/maize_records/14/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSite Load (0.0ms)[0m   [0;1mPGError: ERROR: invalid input syntax for type double precision: "LTEuOTI=
+"
+: SELECT * FROM "sites" WHERE ("sites"."lng" = E'LTEuOTI=
+' AND "sites"."lat" = E'LTgwLjYz
+') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSite Load (1.0ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'-1.92' AND "sites"."lat" = E'-80.63') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (12.6ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:30:58.123645', '2010-01-05 04:30:58.123645', E'KDI3MzCWMjM1MCBjYWwgQi5QLiBhdCB0d28tc2lnbWFzOyBCZXRhLTEwMzMx
+NSBaYXJpbGxvIGV0IGFsIDIwMDg6NTAwNykgZXN0aW1hdGVkIHVzaW5nIG94
+Y2FsIHdpdGggMjQ5MCArLy0gNDA=
+', 2490, 1) RETURNING "id"[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.4ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'-10.82' AND "sites"."lat" = E'-77.74') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:30:58.152550', '2010-01-05 04:30:58.152550', E'', 2495, 2) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'-19.48' AND "sites"."lat" = E'-69.73') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:30:58.155539', '2010-01-05 04:30:58.155539', E'', 920, 3) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'-30.7' AND "sites"."lat" = E'-70.46') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:30:58.158357', '2010-01-05 04:30:58.158357', E'', 1025, 4) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'-21.26' AND "sites"."lat" = E'-69.12') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:30:58.161249', '2010-01-05 04:30:58.161249', E'', 1865, 5) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'-21.2' AND "sites"."lat" = E'-69.51') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:30:58.164151', '2010-01-05 04:30:58.164151', E'', 2210, 6) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'-34.7' AND "sites"."lat" = E'-68.5') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:30:58.166898', '2010-01-05 04:30:58.166898', E'', 2065, 7) RETURNING "id"[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'-26.03' AND "sites"."lat" = E'-67.34') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:30:58.169727', '2010-01-05 04:30:58.169727', E'', 560, 8) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'-34.76' AND "sites"."lat" = E'-69.88') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:30:58.172509', '2010-01-05 04:30:58.172509', E'KEFBLTI2MTkyKSAxLDA0NSArLy0gNDUg
+', 1045, 9) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'-35.439' AND "sites"."lat" = E'-68.187') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:30:58.175103', '2010-01-05 04:30:58.175103', E'KEFBLTI2MTk3KSA5MTAgKy8tIDQw
+', 910, 10) RETURNING "id"[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'-35.435' AND "sites"."lat" = E'-68.158') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:30:58.178034', '2010-01-05 04:30:58.178034', E'KEFBLTI2MTk0KSA3NDAgKy8tIDQw
+', 740, 11) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'14.85' AND "sites"."lat" = E'-88.29') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:30:58.222666', '2010-01-05 04:30:58.222666', E'', 2280, 12) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'18' AND "sites"."lat" = E'-94.04') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:30:58.226072', '2010-01-05 04:30:58.226072', E'', 2565, 13) RETURNING "id"[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'30.92465' AND "sites"."lat" = E'-108.126125') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:30:58.228581', '2010-01-05 04:30:58.228581', E'KDI5ODArLy01MCkxMDguMTI2MTI1
+', 2980, 14) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'30.29' AND "sites"."lat" = E'-110.68') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:30:58.231108', '2010-01-05 04:30:58.231108', E'', 3000, 15) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'14.89096' AND "sites"."lat" = E'-92.44976') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:30:58.233785', '2010-01-05 04:30:58.233785', E'', 3365, 16) RETURNING "id"[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'14.727158' AND "sites"."lat" = E'-92.210039') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:30:58.236659', '2010-01-05 04:30:58.236659', E'KFVDSUFNUyAjNzAzMykgoDMyMjUgKy8tIDE1IGlzIGxvY2F0ZWQgYXQgMTQg
+ZGVncmVlcyA0MyczNy43NyIgTiA5MiBkZWdyZWVzIDEyJzM2LjE0Vw==
+', 3225, 17) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'23.087667' AND "sites"."lat" = E'-99.522917') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:30:58.239256', '2010-01-05 04:30:58.239256', E'', 3890, 18) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'23.087667' AND "sites"."lat" = E'-99.522917') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:30:58.241820', '2010-01-05 04:30:58.241820', E'', 3930, 18) RETURNING "id"[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.4ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'18.45' AND "sites"."lat" = E'-97.17') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:30:58.245077', '2010-01-05 04:30:58.245077', E'', 4700, 19) RETURNING "id"[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'16.941111' AND "sites"."lat" = E'-96.413556') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:30:58.248064', '2010-01-05 04:30:58.248064', E'', 5420, 20) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'39.84' AND "sites"."lat" = E'-82.87') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:30:58.250705', '2010-01-05 04:30:58.250705', E'VVMgTm9ydGggRWFzdA==
+', 1730, 21) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'36.32' AND "sites"."lat" = E'-84.95') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:30:58.253355', '2010-01-05 04:30:58.253355', E'', 1775, 22) RETURNING "id"[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'38.23' AND "sites"."lat" = E'-89.93') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:30:58.255905', '2010-01-05 04:30:58.255905', E'', 2077, 23) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'41' AND "sites"."lat" = E'-72.19') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:30:58.258413', '2010-01-05 04:30:58.258413', E'TGl0dGxlICgyMDAyKSAjOSkgTnksIFNlYm9uYWMsIEwuSS4sIFAtMTU3ODgg
+KENlY2kgMTk5MCkgNTU1ILEgODViIDEyODAoMTQwMCkxNDgw
+', 555, 24) RETURNING "id"[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.7ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'43.69' AND "sites"."lat" = E'-70.55') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:30:58.261502', '2010-01-05 04:30:58.261502', E'TGl0dGxlICgyMDAyKSAjMTApIE1FLCBTYWNvIFIuLCBQLTEwMjA2MCwgY3Vw
+dWxlIChBc2NoIFNpZGVsbCAxOTk5OjE5MikgNjAwILEgNDBiIDEzMDAoMTMz
+MCwxMzUwLDEzOTApMTQyMA==
+', 600, 25) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.8ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'40.62' AND "sites"."lat" = E'-74.124') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:30:58.268601', '2010-01-05 04:30:58.268601', E'TGl0dGxlICgyMDAyKSAjMTEpIE5ZLCBIdWRzb24gUi4sIFN0YXRlbiBJLiwg
+Qm93bWFucyBCcm9vaywgUC0xNTc2OSAoQ2VjaSAxOTkwKSA2MTAgsSA2MCAt
+MTEuNjQgMTI4MCgxMzIwLDEzNTAsMTM5MCkxNDMw
+', 610, 26) RETURNING "id"[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.7ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'41.78' AND "sites"."lat" = E'-72.58') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:30:58.272132', '2010-01-05 04:30:58.272132', E'TGl0dGxlICgyMDAyKSAjMTIpIENULCBDb25uLiBSLiwgQmVybmhtLVNoZXAu
+LCBQLTI3Njc2LCBrIChCZW5kcmVtZXIgZXQgYWwuIDE5OTQpIDYyMCCxIDcw
+IDEyODAoMTMyMCwxMzUwLDEzOTApMTQzMA==
+', 610, 27) RETURNING "id"[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'41.75' AND "sites"."lat" = E'-70.04') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:30:58.275124', '2010-01-05 04:30:58.275124', E'TGl0dGxlICgyMDAyKSAjMTMpIE1BLCBDYXBlIENvZCwgMTlCTjgxMSwgR1gt
+MTkzMTksIGsgKFN0cmF1c3MgMTk5NDsgTGl0dGxlIDE5OTQpIDYyMCCxIDU5
+YiAtMTAuMSAxMjgwKDEzMjAsMTM1MCwxMzkwKTE0MzA=
+', 620, 28) RETURNING "id"[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'41.31' AND "sites"."lat" = E'-73.04') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:30:58.277867', '2010-01-05 04:30:58.277867', E'TGl0dGxlICgyMDAyKSAjMTQpIENULCBIb3VzYXRvbmljIFIuLCAyOTRBLCAy
+NS0yKDkpLCBQLTg0OTczIChDYXNzZWR5ICYgV2ViYiAxOTk5KSA2OTAgsSA2
+MGIgMTIyMCgxMjkwKTE0MDA=
+', 690, 29) RETURNING "id"[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'42.07' AND "sites"."lat" = E'-73.69') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:30:58.280422', '2010-01-05 04:30:58.280422', E'TGl0dGxlICgyMDAyKSAjMTYpIE5ZLCBIdWRzb24gUi4sIDIxMS0xLTEoMzIp
+LCBQLTg0OTY5LCBrIChDYXNzZWR5ICYgV2ViYiAxOTk5KSAxMDUwILEgNTBi
+IDg5MCgxMDAwKTExNTA=
+', 1050, 30) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'39.447798' AND "sites"."lat" = E'-104.79249') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:30:58.283426', '2010-01-05 04:30:58.283426', E'R2lsbW9yZSAoMjAwNSkgQUE2MDY5MiBwbGFudCBjb3JuIGNvYiAgIDg5Misv
+LTM2IChBRCAxMDM1LTEyMTkpIFtodHRwczovL3BvcnRmb2xpby5kdS5lZHUv
+cGMvcG9ydC5kZXRhaWw/aWQ9OTgwNjJd
+', 892, 31) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.7ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'33.93043' AND "sites"."lat" = E'-108.072602') LIMIT 1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:30:58.287827', '2010-01-05 04:30:58.287827', E'RnJvbSBIdWNrZWxsIE1hcCAyMDA2
+', 3010, 32) RETURNING "id"[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'32.33' AND "sites"."lat" = E'-110.96') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:30:58.290749', '2010-01-05 04:30:58.290749', E'', 2790, 33) RETURNING "id"[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.5ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'32.269378' AND "sites"."lat" = E'-111.180617') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:30:58.293949', '2010-01-05 04:30:58.293949', E'SHVja2xlIDIwMDYsIEhPTToxMDAgICAyNzgwKy8tNjA=
+', 2780, 34) RETURNING "id"[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'31.676802' AND "sites"."lat" = E'-110.610084') LIMIT 1[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:30:58.297066', '2010-01-05 04:30:58.297066', E'SHVja2xlIDIwMDYsIEhPTToxMDAgICAyNTA1Ky8tNTA=
+', 2505, 35) RETURNING "id"[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (1.0ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'31.87' AND "sites"."lat" = E'-110.21') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:30:58.301006', '2010-01-05 04:30:58.301006', E'', 2815, 36) RETURNING "id"[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.8ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'32.949361' AND "sites"."lat" = E'-105.857694') LIMIT 1[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:30:58.305732', '2010-01-05 04:30:58.305732', E'RnJvbSBLZXZpbiBIYW5zZWxrYSBvbiB0aGUgZ3JvdW5kIG1lYXN1cmVtZW50
+IDMyIDU2JzU3LjciTiwgMTA1IDUxJzI3LjciVyAgICA9ICAgMzIuOTQ5MzYx
+IE4sICAxMDUuODU3Njk0IFc=
+', 2945, 37) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'35.792028' AND "sites"."lat" = E'-106.687167') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:30:58.308995', '2010-01-05 04:30:58.308995', E'', 2410, 38) RETURNING "id"[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'34.6' AND "sites"."lat" = E'-108') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:30:58.312164', '2010-01-05 04:30:58.312164', E'', 2720, 39) RETURNING "id"[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.7ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'31.584088' AND "sites"."lat" = E'-110.595216') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:30:58.315963', '2010-01-05 04:30:58.315963', E'SHVja2xlIDIwMDYsIEhPTToxMDAgICAyMTcwKy8tMTcw
+', 2170, 40) RETURNING "id"[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'33.119099' AND "sites"."lat" = E'-110.039633') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:30:58.319607', '2010-01-05 04:30:58.319607', E'SHVja2xlIDIwMDYsIEhPTToxMDAgICA0MzAwLTIyMDA=
+', 4300, 41) RETURNING "id"[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'32.171669' AND "sites"."lat" = E'-110.787573') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:30:58.323396', '2010-01-05 04:30:58.323396', E'SHVja2xlIDIwMDYsIEhPTToxMDAgICAyOTMwKy8tNDU=
+', 2930, 42) RETURNING "id"[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'34.490966' AND "sites"."lat" = E'-108.951357') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:30:58.326718', '2010-01-05 04:30:58.326718', E'SHVja2xlIDIwMDYsIEhPTToxMDAgICAzNjgwKy8tNDA=
+', 3680, 43) RETURNING "id"[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'35.660011' AND "sites"."lat" = E'-106.587335') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:30:58.329333', '2010-01-05 04:30:58.329333', E'SHVja2xlIDIwMDYsIEhPTToxMDAgICAzMTI1Ky8tNDU=
+', 3125, 44) RETURNING "id"[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'36.59' AND "sites"."lat" = E'-108.27') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:30:58.331905', '2010-01-05 04:30:58.331905', E'', 2290, 45) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'36.523297' AND "sites"."lat" = E'-110.230238') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:30:58.334988', '2010-01-05 04:30:58.334988', E'RnJvbSBIdWNrZWxsIE1hcCAyMDA2
+', 2880, 46) RETURNING "id"[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'32.096864' AND "sites"."lat" = E'-106.596343') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:30:58.338232', '2010-01-05 04:30:58.338232', E'RnJvbSBIdWNrZWxsIE1hcCAyMDA2
+', 3175, 47) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'34.00947' AND "sites"."lat" = E'-108.541227') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:30:58.341397', '2010-01-05 04:30:58.341397', E'MTkyMCsvLTQwICAgbG9jYXRpb24gRnJvbSBIdWNrZWxsIE1hcCAyMDA2
+', 1920, 48) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.9ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'32.31975' AND "sites"."lat" = E'-111.052713') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:30:58.344773', '2010-01-05 04:30:58.344773', E'SHVja2xlIDIwMDYsIEhPTToxMDAgICAzMTQ1Ky8tNTA=
+', 3145, 49) RETURNING "id"[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.7ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'32.45' AND "sites"."lat" = E'-111.05') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:30:58.348937', '2010-01-05 04:30:58.348937', E'', 2735, 50) RETURNING "id"[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#index (for 127.0.0.1 at 2010-01-04 20:31:11) [GET]
+  [4;36;1mMaizeRecord Load (3.5ms)[0m   [0;1mSELECT * FROM "maize_records" ORDER BY id ASC[0m
+  [4;35;1mSite Load (1.2ms)[0m   [0mSELECT * FROM "sites" WHERE ("sites"."id" IN (44,33,22,11,6,45,34,23,12,7,46,35,24,13,8,47,36,25,14,9,48,37,26,15,50,49,38,27,16,40,39,28,17,1,41,30,29,18,2,42,31,20,19,3,43,32,21,10,4,5)) [0m
+Rendering maize_records/index
+Rendered maize_records/_maize_record (3.8ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.9ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (3.2ms)
+Rendered maize_records/_maize_record (3.1ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (82.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (3.1ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.9ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.9ms)
+Rendered maize_records/_maize_record (3.0ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (3.4ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.9ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (3.0ms)
+Rendered maize_records/_maize_record (3.1ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (4.1ms)
+Rendered maize_records/_maize_record (3.3ms)
+Rendered maize_records/_maize_record (3.6ms)
+Rendered maize_records/_maize_record (3.1ms)
+Rendered maize_records/_maize_record (3.0ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (3.3ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (3.0ms)
+Rendered maize_records/_maize_record (3.4ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (3.2ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.9ms)
+Rendered maize_records/_maize_record (2.9ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (3.1ms)
+Rendered maize_records/_maize_record (2.9ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (3.1ms)
+Rendered maize_records/_maize_record (2.7ms)
+Completed in 455ms (View: 429, DB: 5) | 200 OK [http://localhost/maize_records]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#edit (for 127.0.0.1 at 2010-01-04 20:31:16) [GET]
+  Parameters: {"id"=>"69"}
+  [4;36;1mMaizeRecord Load (0.5ms)[0m   [0;1mSELECT * FROM "maize_records" WHERE ("maize_records"."id" = 69) [0m
+Rendering maize_records/edit
+Rendered maize_records/_fields (1.7ms)
+Rendered maize_records/_form (3.9ms)
+Completed in 13ms (View: 5, DB: 1) | 200 OK [http://localhost/maize_records/69/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#edit (for 127.0.0.1 at 2010-01-04 20:31:19) [GET]
+  Parameters: {"id"=>"68"}
+  [4;35;1mMaizeRecord Load (0.6ms)[0m   [0mSELECT * FROM "maize_records" WHERE ("maize_records"."id" = 68) [0m
+Rendering maize_records/edit
+Rendered maize_records/_fields (1.9ms)
+Rendered maize_records/_form (5.6ms)
+Completed in 17ms (View: 7, DB: 1) | 200 OK [http://localhost/maize_records/68/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#edit (for 127.0.0.1 at 2010-01-04 20:31:23) [GET]
+  Parameters: {"id"=>"72"}
+  [4;36;1mMaizeRecord Load (0.6ms)[0m   [0;1mSELECT * FROM "maize_records" WHERE ("maize_records"."id" = 72) [0m
+Rendering maize_records/edit
+Rendered maize_records/_fields (2.2ms)
+Rendered maize_records/_form (4.8ms)
+Completed in 15ms (View: 6, DB: 1) | 200 OK [http://localhost/maize_records/72/edit]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#edit (for 127.0.0.1 at 2010-01-04 20:31:25) [GET]
+  Parameters: {"id"=>"77"}
+  [4;35;1mMaizeRecord Load (0.6ms)[0m   [0mSELECT * FROM "maize_records" WHERE ("maize_records"."id" = 77) [0m
+Rendering maize_records/edit
+Rendered maize_records/_fields (1.7ms)
+Rendered maize_records/_form (87.6ms)
+Completed in 99ms (View: 88, DB: 1) | 200 OK [http://localhost/maize_records/77/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#edit (for 127.0.0.1 at 2010-01-04 20:31:31) [GET]
+  Parameters: {"id"=>"56"}
+  [4;36;1mMaizeRecord Load (0.5ms)[0m   [0;1mSELECT * FROM "maize_records" WHERE ("maize_records"."id" = 56) [0m
+Rendering maize_records/edit
+Rendered maize_records/_fields (1.9ms)
+Rendered maize_records/_form (4.3ms)
+Completed in 14ms (View: 5, DB: 1) | 200 OK [http://localhost/maize_records/56/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#edit (for 127.0.0.1 at 2010-01-04 20:31:35) [GET]
+  Parameters: {"id"=>"37"}
+  [4;35;1mMaizeRecord Load (0.6ms)[0m   [0mSELECT * FROM "maize_records" WHERE ("maize_records"."id" = 37) [0m
+Rendering maize_records/edit
+Rendered maize_records/_fields (2.2ms)
+Rendered maize_records/_form (5.0ms)
+Completed in 16ms (View: 6, DB: 1) | 200 OK [http://localhost/maize_records/37/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#edit (for 127.0.0.1 at 2010-01-04 20:31:37) [GET]
+  Parameters: {"id"=>"14"}
+  [4;36;1mMaizeRecord Load (0.6ms)[0m   [0;1mSELECT * FROM "maize_records" WHERE ("maize_records"."id" = 14) [0m
+Rendering maize_records/edit
+Rendered maize_records/_fields (2.3ms)
+Rendered maize_records/_form (5.2ms)
+Completed in 16ms (View: 6, DB: 1) | 200 OK [http://localhost/maize_records/14/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#edit (for 127.0.0.1 at 2010-01-04 20:31:40) [GET]
+  Parameters: {"id"=>"7"}
+  [4;35;1mMaizeRecord Load (0.6ms)[0m   [0mSELECT * FROM "maize_records" WHERE ("maize_records"."id" = 7) [0m
+Rendering maize_records/edit
+Rendered maize_records/_fields (2.1ms)
+Rendered maize_records/_form (4.9ms)
+Completed in 16ms (View: 6, DB: 1) | 200 OK [http://localhost/maize_records/7/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#edit (for 127.0.0.1 at 2010-01-04 20:31:42) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mMaizeRecord Load (0.6ms)[0m   [0;1mSELECT * FROM "maize_records" WHERE ("maize_records"."id" = 4) [0m
+Rendering maize_records/edit
+Rendered maize_records/_fields (1.8ms)
+Rendered maize_records/_form (4.1ms)
+Completed in 14ms (View: 5, DB: 1) | 200 OK [http://localhost/maize_records/4/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSite Load (0.9ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'-1.92' AND "sites"."lat" = E'-80.63') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPGError: ERROR: invalid byte sequence for encoding "UTF8": 0x96
+HINT: This error can also happen if the byte sequence does not match the encoding expected by the server, which is controlled by "client_encoding".
+: INSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:32:09.425359', '2010-01-05 04:32:09.425359', E'(2730�2350 cal B.P. at two-sigmas; Beta-103315 Zarillo et al 2008:5007) estimated using oxcal with 2490 +/- 40', 2490, 1) RETURNING "id"[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSite Load (1.1ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'-1.92' AND "sites"."lat" = E'-80.63') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:33:30.945167', '2010-01-05 04:33:30.945167', E'(27302350 cal B.P. at two-sigmas; Beta-103315 Zarillo et al 2008:5007) estimated using oxcal with 2490 +/- 40', 2490, 1) RETURNING "id"[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'-10.82' AND "sites"."lat" = E'-77.74') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:33:30.962280', '2010-01-05 04:33:30.962280', E'', 2495, 2) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'-19.48' AND "sites"."lat" = E'-69.73') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:33:30.965114', '2010-01-05 04:33:30.965114', E'', 920, 3) RETURNING "id"[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'-30.7' AND "sites"."lat" = E'-70.46') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:33:30.967960', '2010-01-05 04:33:30.967960', E'', 1025, 4) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'-21.26' AND "sites"."lat" = E'-69.12') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:33:30.970866', '2010-01-05 04:33:30.970866', E'', 1865, 5) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'-21.2' AND "sites"."lat" = E'-69.51') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:33:30.973606', '2010-01-05 04:33:30.973606', E'', 2210, 6) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'-34.7' AND "sites"."lat" = E'-68.5') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:33:30.976358', '2010-01-05 04:33:30.976358', E'', 2065, 7) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'-26.03' AND "sites"."lat" = E'-67.34') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:33:30.979323', '2010-01-05 04:33:30.979323', E'', 560, 8) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'-34.76' AND "sites"."lat" = E'-69.88') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:33:30.981995', '2010-01-05 04:33:30.981995', E'(AA-26192) 1,045 +/- 45 ', 1045, 9) RETURNING "id"[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'-35.439' AND "sites"."lat" = E'-68.187') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:33:30.984548', '2010-01-05 04:33:30.984548', E'(AA-26197) 910 +/- 40', 910, 10) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'-35.435' AND "sites"."lat" = E'-68.158') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:33:30.987350', '2010-01-05 04:33:30.987350', E'(AA-26194) 740 +/- 40', 740, 11) RETURNING "id"[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'14.85' AND "sites"."lat" = E'-88.29') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:33:31.030931', '2010-01-05 04:33:31.030931', E'', 2280, 12) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'18' AND "sites"."lat" = E'-94.04') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:33:31.033946', '2010-01-05 04:33:31.033946', E'', 2565, 13) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'30.92465' AND "sites"."lat" = E'-108.126125') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:33:31.036557', '2010-01-05 04:33:31.036557', E'(2980+/-50)108.126125', 2980, 14) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'30.29' AND "sites"."lat" = E'-110.68') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:33:31.039587', '2010-01-05 04:33:31.039587', E'', 3000, 15) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'14.89096' AND "sites"."lat" = E'-92.44976') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:33:31.042380', '2010-01-05 04:33:31.042380', E'', 3365, 16) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'14.727158' AND "sites"."lat" = E'-92.210039') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:33:31.045123', '2010-01-05 04:33:31.045123', E'(UCIAMS #7033) 3225 +/- 15 is located at 14 degrees 43''37.77" N 92 degrees 12''36.14W', 3225, 17) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'23.087667' AND "sites"."lat" = E'-99.522917') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:33:31.047721', '2010-01-05 04:33:31.047721', E'', 3890, 18) RETURNING "id"[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'23.087667' AND "sites"."lat" = E'-99.522917') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:33:31.050178', '2010-01-05 04:33:31.050178', E'', 3930, 18) RETURNING "id"[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'18.45' AND "sites"."lat" = E'-97.17') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:33:31.052777', '2010-01-05 04:33:31.052777', E'', 4700, 19) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'16.941111' AND "sites"."lat" = E'-96.413556') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:33:31.055339', '2010-01-05 04:33:31.055339', E'', 5420, 20) RETURNING "id"[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'39.84' AND "sites"."lat" = E'-82.87') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:33:31.058127', '2010-01-05 04:33:31.058127', E'US North East', 1730, 21) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'36.32' AND "sites"."lat" = E'-84.95') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:33:31.060760', '2010-01-05 04:33:31.060760', E'', 1775, 22) RETURNING "id"[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'38.23' AND "sites"."lat" = E'-89.93') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:33:31.063788', '2010-01-05 04:33:31.063788', E'', 2077, 23) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'41' AND "sites"."lat" = E'-72.19') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:33:31.066456', '2010-01-05 04:33:31.066456', E'Little (2002) #9) Ny, Sebonac, L.I., P-15788 (Ceci 1990) 555 85b 1280(1400)1480', 555, 24) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'43.69' AND "sites"."lat" = E'-70.55') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:33:31.069050', '2010-01-05 04:33:31.069050', E'Little (2002) #10) ME, Saco R., P-102060, cupule (Asch Sidell 1999:192) 600 40b 1300(1330,1350,1390)1420', 600, 25) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'40.62' AND "sites"."lat" = E'-74.124') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:33:31.071669', '2010-01-05 04:33:31.071669', E'Little (2002) #11) NY, Hudson R., Staten I., Bowmans Brook, P-15769 (Ceci 1990) 610 60 -11.64 1280(1320,1350,1390)1430', 610, 26) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'41.78' AND "sites"."lat" = E'-72.58') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:33:31.074316', '2010-01-05 04:33:31.074316', E'Little (2002) #12) CT, Conn. R., Bernhm-Shep., P-27676, k (Bendremer et al. 1994) 620 70 1280(1320,1350,1390)1430', 610, 27) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'41.75' AND "sites"."lat" = E'-70.04') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:33:31.076936', '2010-01-05 04:33:31.076936', E'Little (2002) #13) MA, Cape Cod, 19BN811, GX-19319, k (Strauss 1994; Little 1994) 620 59b -10.1 1280(1320,1350,1390)1430', 620, 28) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'41.31' AND "sites"."lat" = E'-73.04') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:33:31.079793', '2010-01-05 04:33:31.079793', E'Little (2002) #14) CT, Housatonic R., 294A, 25-2(9), P-84973 (Cassedy & Webb 1999) 690 60b 1220(1290)1400', 690, 29) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'42.07' AND "sites"."lat" = E'-73.69') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:33:31.082396', '2010-01-05 04:33:31.082396', E'Little (2002) #16) NY, Hudson R., 211-1-1(32), P-84969, k (Cassedy & Webb 1999) 1050 50b 890(1000)1150', 1050, 30) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'39.447798' AND "sites"."lat" = E'-104.79249') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:33:31.084993', '2010-01-05 04:33:31.084993', E'Gilmore (2005) AA60692 plant corn cob 892+/-36 (AD 1035-1219) [https://portfolio.du.edu/pc/port.detail?id=98062]', 892, 31) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'33.93043' AND "sites"."lat" = E'-108.072602') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:33:31.087645', '2010-01-05 04:33:31.087645', E'From Huckell Map 2006', 3010, 32) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'32.33' AND "sites"."lat" = E'-110.96') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:33:31.090232', '2010-01-05 04:33:31.090232', E'', 2790, 33) RETURNING "id"[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'32.269378' AND "sites"."lat" = E'-111.180617') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:33:31.092703', '2010-01-05 04:33:31.092703', E'Huckle 2006, HOM:100 2780+/-60', 2780, 34) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'31.676802' AND "sites"."lat" = E'-110.610084') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:33:31.095256', '2010-01-05 04:33:31.095256', E'Huckle 2006, HOM:100 2505+/-50', 2505, 35) RETURNING "id"[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'31.87' AND "sites"."lat" = E'-110.21') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:33:31.097927', '2010-01-05 04:33:31.097927', E'', 2815, 36) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'32.949361' AND "sites"."lat" = E'-105.857694') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:33:31.100568', '2010-01-05 04:33:31.100568', E'From Kevin Hanselka on the ground measurement 32 56''57.7"N, 105 51''27.7"W = 32.949361 N, 105.857694 W', 2945, 37) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'35.792028' AND "sites"."lat" = E'-106.687167') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:33:31.103228', '2010-01-05 04:33:31.103228', E'', 2410, 38) RETURNING "id"[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'34.6' AND "sites"."lat" = E'-108') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:33:31.106392', '2010-01-05 04:33:31.106392', E'', 2720, 39) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'31.584088' AND "sites"."lat" = E'-110.595216') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:33:31.109154', '2010-01-05 04:33:31.109154', E'Huckle 2006, HOM:100 2170+/-170', 2170, 40) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'33.119099' AND "sites"."lat" = E'-110.039633') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:33:31.111700', '2010-01-05 04:33:31.111700', E'Huckle 2006, HOM:100 4300-2200', 4300, 41) RETURNING "id"[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'32.171669' AND "sites"."lat" = E'-110.787573') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:33:31.114581', '2010-01-05 04:33:31.114581', E'Huckle 2006, HOM:100 2930+/-45', 2930, 42) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'34.490966' AND "sites"."lat" = E'-108.951357') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:33:31.117496', '2010-01-05 04:33:31.117496', E'Huckle 2006, HOM:100 3680+/-40', 3680, 43) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'35.660011' AND "sites"."lat" = E'-106.587335') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:33:31.120259', '2010-01-05 04:33:31.120259', E'Huckle 2006, HOM:100 3125+/-45', 3125, 44) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'36.59' AND "sites"."lat" = E'-108.27') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:33:31.122806', '2010-01-05 04:33:31.122806', E'', 2290, 45) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'36.523297' AND "sites"."lat" = E'-110.230238') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:33:31.125371', '2010-01-05 04:33:31.125371', E'From Huckell Map 2006', 2880, 46) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'32.096864' AND "sites"."lat" = E'-106.596343') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:33:31.127909', '2010-01-05 04:33:31.127909', E'From Huckell Map 2006', 3175, 47) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'34.00947' AND "sites"."lat" = E'-108.541227') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:33:31.130448', '2010-01-05 04:33:31.130448', E'1920+/-40 location From Huckell Map 2006', 1920, 48) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'32.31975' AND "sites"."lat" = E'-111.052713') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:33:31.132965', '2010-01-05 04:33:31.132965', E'Huckle 2006, HOM:100 3145+/-50', 3145, 49) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'32.45' AND "sites"."lat" = E'-111.05') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:33:31.135530', '2010-01-05 04:33:31.135530', E'', 2735, 50) RETURNING "id"[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSQL (3.5ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [4;35;1mSQL (2.6ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreateSites (20100105023833)
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (6.4ms)[0m   [0;1mCREATE TABLE "sites" ("id" serial primary key, "name" character varying(255) NOT NULL, "region" character varying(255) NOT NULL, "country" character varying(255) NOT NULL, "lat" float NOT NULL, "lng" float NOT NULL, "created_at" timestamp, "updated_at" timestamp) [0m
+  [4;35;1mSQL (1.3ms)[0m   [0mCREATE INDEX "index_sites_on_name" ON "sites" ("name")[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mCREATE INDEX "index_sites_on_region" ON "sites" ("region")[0m
+  [4;35;1mSQL (1.4ms)[0m   [0mCREATE INDEX "index_sites_on_country" ON "sites" ("country")[0m
+  [4;36;1mSQL (1.7ms)[0m   [0;1mCREATE INDEX "index_sites_on_lat" ON "sites" ("lat")[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mCREATE INDEX "index_sites_on_lng" ON "sites" ("lng")[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100105023833')[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mCOMMIT[0m
+Migrating to CreateMaizeRecords (20100105023925)
+  [4;36;1mSQL (0.9ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (4.8ms)[0m   [0mCREATE TABLE "maize_records" ("id" serial primary key, "site_id" integer, "description" text, "age" integer, "created_at" timestamp, "updated_at" timestamp) [0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mCREATE INDEX "index_maize_records_on_site_id" ON "maize_records" ("site_id")[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mCREATE INDEX "index_maize_records_on_age" ON "maize_records" ("age")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100105023925')[0m
+  [4;35;1mSQL (1.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+  [4;36;1mSite Load (1.7ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'-1.92' AND "sites"."lat" = E'-80.63') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (1.7ms)[0m   [0;1mINSERT INTO "sites" ("name", "region", "created_at", "country", "updated_at", "lng", "lat") VALUES(E'Loma Atla', E'South America', '2010-01-05 04:34:18.847329', E'Ecuador', '2010-01-05 04:34:18.847329', -1.92, -80.63) RETURNING "id"[0m
+  [4;35;1mSQL (1.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:34:18.869186', '2010-01-05 04:34:18.869186', E'(27302350 cal B.P. at two-sigmas; Beta-103315 Zarillo et al 2008:5007) estimated using oxcal with 2490 +/- 40', 2490, 1) RETURNING "id"[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSite Load (0.5ms)[0m   [0mSELECT * FROM "sites" WHERE ("sites"."lng" = E'-10.82' AND "sites"."lat" = E'-77.74') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mINSERT INTO "sites" ("name", "region", "created_at", "country", "updated_at", "lng", "lat") VALUES(E'Aspero', E'South America', '2010-01-05 04:34:18.876186', E'Peru', '2010-01-05 04:34:18.876186', -10.82, -77.74) RETURNING "id"[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:34:18.878482', '2010-01-05 04:34:18.878482', E'', 2495, 2) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'-19.48' AND "sites"."lat" = E'-69.73') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "sites" ("name", "region", "created_at", "country", "updated_at", "lng", "lat") VALUES(E'Tiliviche', E'South America', '2010-01-05 04:34:18.881243', E'Chile', '2010-01-05 04:34:18.881243', -19.48, -69.73) RETURNING "id"[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:34:18.884413', '2010-01-05 04:34:18.884413', E'', 920, 3) RETURNING "id"[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSite Load (0.3ms)[0m   [0mSELECT * FROM "sites" WHERE ("sites"."lng" = E'-30.7' AND "sites"."lat" = E'-70.46') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "sites" ("name", "region", "created_at", "country", "updated_at", "lng", "lat") VALUES(E'Pichasca', E'South America', '2010-01-05 04:34:18.887651', E'Chile', '2010-01-05 04:34:18.887651', -30.7, -70.46) RETURNING "id"[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:34:18.890038', '2010-01-05 04:34:18.890038', E'', 1025, 4) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'-21.26' AND "sites"."lat" = E'-69.12') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "sites" ("name", "region", "created_at", "country", "updated_at", "lng", "lat") VALUES(E'Guatacondo', E'South America', '2010-01-05 04:34:18.892971', E'Chile', '2010-01-05 04:34:18.892971', -21.26, -69.12) RETURNING "id"[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:34:18.895226', '2010-01-05 04:34:18.895226', E'', 1865, 5) RETURNING "id"[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSite Load (0.3ms)[0m   [0mSELECT * FROM "sites" WHERE ("sites"."lng" = E'-21.2' AND "sites"."lat" = E'-69.51') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "sites" ("name", "region", "created_at", "country", "updated_at", "lng", "lat") VALUES(E'Ramaditas', E'South America', '2010-01-05 04:34:18.898115', E'Chile', '2010-01-05 04:34:18.898115', -21.2, -69.51) RETURNING "id"[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:34:18.900359', '2010-01-05 04:34:18.900359', E'', 2210, 6) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.4ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'-34.7' AND "sites"."lat" = E'-68.5') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "sites" ("name", "region", "created_at", "country", "updated_at", "lng", "lat") VALUES(E'Gruta del Indio', E'South America', '2010-01-05 04:34:18.945072', E'Argentina ', '2010-01-05 04:34:18.945072', -34.7, -68.5) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:34:18.947271', '2010-01-05 04:34:18.947271', E'', 2065, 7) RETURNING "id"[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSite Load (0.3ms)[0m   [0mSELECT * FROM "sites" WHERE ("sites"."lng" = E'-26.03' AND "sites"."lat" = E'-67.34') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "sites" ("name", "region", "created_at", "country", "updated_at", "lng", "lat") VALUES(E'Punta de la Pena', E'South America', '2010-01-05 04:34:18.950081', E'Argentina', '2010-01-05 04:34:18.950081', -26.03, -67.34) RETURNING "id"[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:34:18.952380', '2010-01-05 04:34:18.952380', E'', 560, 8) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'-34.76' AND "sites"."lat" = E'-69.88') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "sites" ("name", "region", "created_at", "country", "updated_at", "lng", "lat") VALUES(E'El Indigeno', E'South America', '2010-01-05 04:34:18.954997', E'Argentina', '2010-01-05 04:34:18.954997', -34.76, -69.88) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:34:18.957099', '2010-01-05 04:34:18.957099', E'(AA-26192) 1,045 +/- 45 ', 1045, 9) RETURNING "id"[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSite Load (0.2ms)[0m   [0mSELECT * FROM "sites" WHERE ("sites"."lng" = E'-35.439' AND "sites"."lat" = E'-68.187') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "sites" ("name", "region", "created_at", "country", "updated_at", "lng", "lat") VALUES(E'Puesto Ortubia', E'South America', '2010-01-05 04:34:18.959853', E'Argentina', '2010-01-05 04:34:18.959853', -35.439, -68.187) RETURNING "id"[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:34:18.961921', '2010-01-05 04:34:18.961921', E'(AA-26197) 910 +/- 40', 910, 10) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'-35.435' AND "sites"."lat" = E'-68.158') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "sites" ("name", "region", "created_at", "country", "updated_at", "lng", "lat") VALUES(E'Agua de Los Caballos', E'South America', '2010-01-05 04:34:18.964984', E'Argentina', '2010-01-05 04:34:18.964984', -35.435, -68.158) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:34:18.967114', '2010-01-05 04:34:18.967114', E'(AA-26194) 740 +/- 40', 740, 11) RETURNING "id"[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSite Load (0.3ms)[0m   [0mSELECT * FROM "sites" WHERE ("sites"."lng" = E'14.85' AND "sites"."lat" = E'-88.29') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "sites" ("name", "region", "created_at", "country", "updated_at", "lng", "lat") VALUES(E'El Gigante', E'Mesoamerica', '2010-01-05 04:34:18.969879', E'Honduras', '2010-01-05 04:34:18.969879', 14.85, -88.29) RETURNING "id"[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:34:18.972021', '2010-01-05 04:34:18.972021', E'', 2280, 12) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.2ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'18' AND "sites"."lat" = E'-94.04') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "sites" ("name", "region", "created_at", "country", "updated_at", "lng", "lat") VALUES(E'San Andres', E'Mesoamerica', '2010-01-05 04:34:18.974666', E'Mexico', '2010-01-05 04:34:18.974666', 18.0, -94.04) RETURNING "id"[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:34:18.976905', '2010-01-05 04:34:18.976905', E'', 2565, 13) RETURNING "id"[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSite Load (0.3ms)[0m   [0mSELECT * FROM "sites" WHERE ("sites"."lng" = E'30.92465' AND "sites"."lat" = E'-108.126125') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "sites" ("name", "region", "created_at", "country", "updated_at", "lng", "lat") VALUES(E'Cerro Juanaquena', E'Mesoamerica', '2010-01-05 04:34:18.979513', E'Mexico', '2010-01-05 04:34:18.979513', 30.92465, -108.126125) RETURNING "id"[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:34:18.981593', '2010-01-05 04:34:18.981593', E'(2980+/-50)108.126125', 2980, 14) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.2ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'30.29' AND "sites"."lat" = E'-110.68') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "sites" ("name", "region", "created_at", "country", "updated_at", "lng", "lat") VALUES(E'La Playa', E'Mesoamerica', '2010-01-05 04:34:18.984289', E'Mexico', '2010-01-05 04:34:18.984289', 30.29, -110.68) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:34:18.986670', '2010-01-05 04:34:18.986670', E'', 3000, 15) RETURNING "id"[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSite Load (0.3ms)[0m   [0mSELECT * FROM "sites" WHERE ("sites"."lng" = E'14.89096' AND "sites"."lat" = E'-92.44976') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "sites" ("name", "region", "created_at", "country", "updated_at", "lng", "lat") VALUES(E'San Carlos', E'Mesoamerica', '2010-01-05 04:34:18.989364', E'Mexico', '2010-01-05 04:34:18.989364', 14.89096, -92.44976) RETURNING "id"[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:34:18.991398', '2010-01-05 04:34:18.991398', E'', 3365, 16) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'14.727158' AND "sites"."lat" = E'-92.210039') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "sites" ("name", "region", "created_at", "country", "updated_at", "lng", "lat") VALUES(E'Cuauhtemoc', E'Mesoamerica', '2010-01-05 04:34:18.994018', E'Mexico', '2010-01-05 04:34:18.994018', 14.727158, -92.210039) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:34:18.996202', '2010-01-05 04:34:18.996202', E'(UCIAMS #7033) 3225 +/- 15 is located at 14 degrees 43''37.77" N 92 degrees 12''36.14W', 3225, 17) RETURNING "id"[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSite Load (0.2ms)[0m   [0mSELECT * FROM "sites" WHERE ("sites"."lng" = E'23.087667' AND "sites"."lat" = E'-99.522917') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "sites" ("name", "region", "created_at", "country", "updated_at", "lng", "lat") VALUES(E'Valenzuela''s Cave', E'Mesoamerica', '2010-01-05 04:34:18.998965', E'Mexico', '2010-01-05 04:34:18.998965', 23.087667, -99.522917) RETURNING "id"[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:34:19.001081', '2010-01-05 04:34:19.001081', E'', 3890, 18) RETURNING "id"[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'23.087667' AND "sites"."lat" = E'-99.522917') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:34:19.003725', '2010-01-05 04:34:19.003725', E'', 3930, 18) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'18.45' AND "sites"."lat" = E'-97.17') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "sites" ("name", "region", "created_at", "country", "updated_at", "lng", "lat") VALUES(E'San Marcos Cave', E'Mesoamerica', '2010-01-05 04:34:19.006583', E'Mexico', '2010-01-05 04:34:19.006583', 18.45, -97.17) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:34:19.008752', '2010-01-05 04:34:19.008752', E'', 4700, 19) RETURNING "id"[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSite Load (0.2ms)[0m   [0mSELECT * FROM "sites" WHERE ("sites"."lng" = E'16.941111' AND "sites"."lat" = E'-96.413556') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "sites" ("name", "region", "created_at", "country", "updated_at", "lng", "lat") VALUES(E'Guila Naquitz', E'Mesoamerica', '2010-01-05 04:34:19.011535', E'Mexico', '2010-01-05 04:34:19.011535', 16.941111, -96.413556) RETURNING "id"[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:34:19.013689', '2010-01-05 04:34:19.013689', E'', 5420, 20) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.2ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'39.84' AND "sites"."lat" = E'-82.87') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "sites" ("name", "region", "created_at", "country", "updated_at", "lng", "lat") VALUES(E'Harness Mound', E'Northeast', '2010-01-05 04:34:19.016270', E'US', '2010-01-05 04:34:19.016270', 39.84, -82.87) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:34:19.018356', '2010-01-05 04:34:19.018356', E'US North East', 1730, 21) RETURNING "id"[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSite Load (0.2ms)[0m   [0mSELECT * FROM "sites" WHERE ("sites"."lng" = E'36.32' AND "sites"."lat" = E'-84.95') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO "sites" ("name", "region", "created_at", "country", "updated_at", "lng", "lat") VALUES(E'Icehouse Bottom', E'Northeast', '2010-01-05 04:34:19.020905', E'US', '2010-01-05 04:34:19.020905', 36.32, -84.95) RETURNING "id"[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:34:19.022965', '2010-01-05 04:34:19.022965', E'', 1775, 22) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'38.23' AND "sites"."lat" = E'-89.93') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "sites" ("name", "region", "created_at", "country", "updated_at", "lng", "lat") VALUES(E'Holding (Cahokia)', E'Northeast', '2010-01-05 04:34:19.025868', E'US', '2010-01-05 04:34:19.025868', 38.23, -89.93) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:34:19.027920', '2010-01-05 04:34:19.027920', E'', 2077, 23) RETURNING "id"[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSite Load (0.2ms)[0m   [0mSELECT * FROM "sites" WHERE ("sites"."lng" = E'41' AND "sites"."lat" = E'-72.19') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "sites" ("name", "region", "created_at", "country", "updated_at", "lng", "lat") VALUES(E'Sebonac', E'Northeast', '2010-01-05 04:34:19.030570', E'US', '2010-01-05 04:34:19.030570', 41.0, -72.19) RETURNING "id"[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:34:19.032684', '2010-01-05 04:34:19.032684', E'Little (2002) #9) Ny, Sebonac, L.I., P-15788 (Ceci 1990) 555 85b 1280(1400)1480', 555, 24) RETURNING "id"[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.2ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'43.69' AND "sites"."lat" = E'-70.55') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "sites" ("name", "region", "created_at", "country", "updated_at", "lng", "lat") VALUES(E'Saco River', E'Northeast', '2010-01-05 04:34:19.035244', E'US', '2010-01-05 04:34:19.035244', 43.69, -70.55) RETURNING "id"[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:34:19.037217', '2010-01-05 04:34:19.037217', E'Little (2002) #10) ME, Saco R., P-102060, cupule (Asch Sidell 1999:192) 600 40b 1300(1330,1350,1390)1420', 600, 25) RETURNING "id"[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSite Load (0.2ms)[0m   [0mSELECT * FROM "sites" WHERE ("sites"."lng" = E'40.62' AND "sites"."lat" = E'-74.124') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "sites" ("name", "region", "created_at", "country", "updated_at", "lng", "lat") VALUES(E'Bowmans Brook', E'Northeast', '2010-01-05 04:34:19.039765', E'US', '2010-01-05 04:34:19.039765', 40.62, -74.124) RETURNING "id"[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:34:19.041894', '2010-01-05 04:34:19.041894', E'Little (2002) #11) NY, Hudson R., Staten I., Bowmans Brook, P-15769 (Ceci 1990) 610 60 -11.64 1280(1320,1350,1390)1430', 610, 26) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.2ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'41.78' AND "sites"."lat" = E'-72.58') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "sites" ("name", "region", "created_at", "country", "updated_at", "lng", "lat") VALUES(E'Burnham-Shepard', E'Northeast', '2010-01-05 04:34:19.044641', E'US', '2010-01-05 04:34:19.044641', 41.78, -72.58) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:34:19.046730', '2010-01-05 04:34:19.046730', E'Little (2002) #12) CT, Conn. R., Bernhm-Shep., P-27676, k (Bendremer et al. 1994) 620 70 1280(1320,1350,1390)1430', 610, 27) RETURNING "id"[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSite Load (0.2ms)[0m   [0mSELECT * FROM "sites" WHERE ("sites"."lng" = E'41.75' AND "sites"."lat" = E'-70.04') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "sites" ("name", "region", "created_at", "country", "updated_at", "lng", "lat") VALUES(E'Cape Cod', E'Northeast', '2010-01-05 04:34:19.049296', E'US', '2010-01-05 04:34:19.049296', 41.75, -70.04) RETURNING "id"[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:34:19.051497', '2010-01-05 04:34:19.051497', E'Little (2002) #13) MA, Cape Cod, 19BN811, GX-19319, k (Strauss 1994; Little 1994) 620 59b -10.1 1280(1320,1350,1390)1430', 620, 28) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.2ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'41.31' AND "sites"."lat" = E'-73.04') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "sites" ("name", "region", "created_at", "country", "updated_at", "lng", "lat") VALUES(E'Housatonic River', E'Northeast', '2010-01-05 04:34:19.054090', E'US', '2010-01-05 04:34:19.054090', 41.31, -73.04) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:34:19.056101', '2010-01-05 04:34:19.056101', E'Little (2002) #14) CT, Housatonic R., 294A, 25-2(9), P-84973 (Cassedy & Webb 1999) 690 60b 1220(1290)1400', 690, 29) RETURNING "id"[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSite Load (0.2ms)[0m   [0mSELECT * FROM "sites" WHERE ("sites"."lng" = E'42.07' AND "sites"."lat" = E'-73.69') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "sites" ("name", "region", "created_at", "country", "updated_at", "lng", "lat") VALUES(E'Hudson River', E'Northeast', '2010-01-05 04:34:19.058603', E'US', '2010-01-05 04:34:19.058603', 42.07, -73.69) RETURNING "id"[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:34:19.060988', '2010-01-05 04:34:19.060988', E'Little (2002) #16) NY, Hudson R., 211-1-1(32), P-84969, k (Cassedy & Webb 1999) 1050 50b 890(1000)1150', 1050, 30) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.2ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'39.447798' AND "sites"."lat" = E'-104.79249') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "sites" ("name", "region", "created_at", "country", "updated_at", "lng", "lat") VALUES(E'Franktown Cave', E'Northeast', '2010-01-05 04:34:19.063518', E'US', '2010-01-05 04:34:19.063518', 39.447798, -104.79249) RETURNING "id"[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:34:19.065684', '2010-01-05 04:34:19.065684', E'Gilmore (2005) AA60692 plant corn cob 892+/-36 (AD 1035-1219) [https://portfolio.du.edu/pc/port.detail?id=98062]', 892, 31) RETURNING "id"[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSite Load (0.3ms)[0m   [0mSELECT * FROM "sites" WHERE ("sites"."lng" = E'33.93043' AND "sites"."lat" = E'-108.072602') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "sites" ("name", "region", "created_at", "country", "updated_at", "lng", "lat") VALUES(E'Bat Cave', E'Southwest', '2010-01-05 04:34:19.068308', E'US', '2010-01-05 04:34:19.068308', 33.93043, -108.072602) RETURNING "id"[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:34:19.070416', '2010-01-05 04:34:19.070416', E'From Huckell Map 2006', 3010, 32) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.2ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'32.33' AND "sites"."lat" = E'-110.96') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "sites" ("name", "region", "created_at", "country", "updated_at", "lng", "lat") VALUES(E'Cortaro Fan', E'Southwest', '2010-01-05 04:34:19.072960', E'US', '2010-01-05 04:34:19.072960', 32.33, -110.96) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:34:19.075010', '2010-01-05 04:34:19.075010', E'', 2790, 33) RETURNING "id"[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSite Load (0.2ms)[0m   [0mSELECT * FROM "sites" WHERE ("sites"."lng" = E'32.269378' AND "sites"."lat" = E'-111.180617') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "sites" ("name", "region", "created_at", "country", "updated_at", "lng", "lat") VALUES(E'Costello-King', E'Southwest', '2010-01-05 04:34:19.077753', E'US', '2010-01-05 04:34:19.077753', 32.269378, -111.180617) RETURNING "id"[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:34:19.079852', '2010-01-05 04:34:19.079852', E'Huckle 2006, HOM:100 2780+/-60', 2780, 34) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.2ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'31.676802' AND "sites"."lat" = E'-110.610084') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "sites" ("name", "region", "created_at", "country", "updated_at", "lng", "lat") VALUES(E'Donaldson', E'Southwest', '2010-01-05 04:34:19.082420', E'US', '2010-01-05 04:34:19.082420', 31.676802, -110.610084) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:34:19.084474', '2010-01-05 04:34:19.084474', E'Huckle 2006, HOM:100 2505+/-50', 2505, 35) RETURNING "id"[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSite Load (0.2ms)[0m   [0mSELECT * FROM "sites" WHERE ("sites"."lng" = E'31.87' AND "sites"."lat" = E'-110.21') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "sites" ("name", "region", "created_at", "country", "updated_at", "lng", "lat") VALUES(E'Fairbank', E'Southwest', '2010-01-05 04:34:19.087197', E'US', '2010-01-05 04:34:19.087197', 31.87, -110.21) RETURNING "id"[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:34:19.089249', '2010-01-05 04:34:19.089249', E'', 2815, 36) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.2ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'32.949361' AND "sites"."lat" = E'-105.857694') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "sites" ("name", "region", "created_at", "country", "updated_at", "lng", "lat") VALUES(E'Fresnal Shelter', E'Southwest', '2010-01-05 04:34:19.091755', E'US', '2010-01-05 04:34:19.091755', 32.949361, -105.857694) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:34:19.093841', '2010-01-05 04:34:19.093841', E'From Kevin Hanselka on the ground measurement 32 56''57.7"N, 105 51''27.7"W = 32.949361 N, 105.857694 W', 2945, 37) RETURNING "id"[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSite Load (0.2ms)[0m   [0mSELECT * FROM "sites" WHERE ("sites"."lng" = E'35.792028' AND "sites"."lat" = E'-106.687167') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "sites" ("name", "region", "created_at", "country", "updated_at", "lng", "lat") VALUES(E'Jemez', E'Southwest', '2010-01-05 04:34:19.096361', E'US', '2010-01-05 04:34:19.096361', 35.792028, -106.687167) RETURNING "id"[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:34:19.098410', '2010-01-05 04:34:19.098410', E'', 2410, 38) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.2ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'34.6' AND "sites"."lat" = E'-108') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "sites" ("name", "region", "created_at", "country", "updated_at", "lng", "lat") VALUES(E'LA18091', E'Southwest', '2010-01-05 04:34:19.101033', E'US', '2010-01-05 04:34:19.101033', 34.6, -108.0) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:34:19.103053', '2010-01-05 04:34:19.103053', E'', 2720, 39) RETURNING "id"[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSite Load (0.2ms)[0m   [0mSELECT * FROM "sites" WHERE ("sites"."lng" = E'31.584088' AND "sites"."lat" = E'-110.595216') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "sites" ("name", "region", "created_at", "country", "updated_at", "lng", "lat") VALUES(E'Los Ojitos', E'Southwest', '2010-01-05 04:34:19.105768', E'US', '2010-01-05 04:34:19.105768', 31.584088, -110.595216) RETURNING "id"[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:34:19.107747', '2010-01-05 04:34:19.107747', E'Huckle 2006, HOM:100 2170+/-170', 2170, 40) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.2ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'33.119099' AND "sites"."lat" = E'-110.039633') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "sites" ("name", "region", "created_at", "country", "updated_at", "lng", "lat") VALUES(E'McEuen Cave', E'Southwest', '2010-01-05 04:34:19.110368', E'US', '2010-01-05 04:34:19.110368', 33.119099, -110.039633) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:34:19.112403', '2010-01-05 04:34:19.112403', E'Huckle 2006, HOM:100 4300-2200', 4300, 41) RETURNING "id"[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSite Load (0.2ms)[0m   [0mSELECT * FROM "sites" WHERE ("sites"."lng" = E'32.171669' AND "sites"."lat" = E'-110.787573') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "sites" ("name", "region", "created_at", "country", "updated_at", "lng", "lat") VALUES(E'Milagro', E'Southwest', '2010-01-05 04:34:19.114991', E'US', '2010-01-05 04:34:19.114991', 32.171669, -110.787573) RETURNING "id"[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:34:19.116982', '2010-01-05 04:34:19.116982', E'Huckle 2006, HOM:100 2930+/-45', 2930, 42) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.2ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'34.490966' AND "sites"."lat" = E'-108.951357') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "sites" ("name", "region", "created_at", "country", "updated_at", "lng", "lat") VALUES(E'Old Corn (LA 137258', E'Southwest', '2010-01-05 04:34:19.119423', E'US', '2010-01-05 04:34:19.119423', 34.490966, -108.951357) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:34:19.121649', '2010-01-05 04:34:19.121649', E'Huckle 2006, HOM:100 3680+/-40', 3680, 43) RETURNING "id"[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSite Load (0.2ms)[0m   [0mSELECT * FROM "sites" WHERE ("sites"."lng" = E'35.660011' AND "sites"."lat" = E'-106.587335') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "sites" ("name", "region", "created_at", "country", "updated_at", "lng", "lat") VALUES(E'San Luis de Cabezon', E'Southwest', '2010-01-05 04:34:19.124206', E'US', '2010-01-05 04:34:19.124206', 35.660011, -106.587335) RETURNING "id"[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:34:19.126443', '2010-01-05 04:34:19.126443', E'Huckle 2006, HOM:100 3125+/-45', 3125, 44) RETURNING "id"[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.2ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'36.59' AND "sites"."lat" = E'-108.27') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "sites" ("name", "region", "created_at", "country", "updated_at", "lng", "lat") VALUES(E'Sheep Camp Shelter', E'Southwest', '2010-01-05 04:34:19.128842', E'US', '2010-01-05 04:34:19.128842', 36.59, -108.27) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:34:19.130925', '2010-01-05 04:34:19.130925', E'', 2290, 45) RETURNING "id"[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSite Load (0.3ms)[0m   [0mSELECT * FROM "sites" WHERE ("sites"."lng" = E'36.523297' AND "sites"."lat" = E'-110.230238') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "sites" ("name", "region", "created_at", "country", "updated_at", "lng", "lat") VALUES(E'Three Fir Shelter', E'Southwest', '2010-01-05 04:34:19.133936', E'US', '2010-01-05 04:34:19.133936', 36.523297, -110.230238) RETURNING "id"[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:34:19.136144', '2010-01-05 04:34:19.136144', E'From Huckell Map 2006', 2880, 46) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.2ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'32.096864' AND "sites"."lat" = E'-106.596343') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "sites" ("name", "region", "created_at", "country", "updated_at", "lng", "lat") VALUES(E'Tornillo Shelter', E'Southwest', '2010-01-05 04:34:19.138806', E'US', '2010-01-05 04:34:19.138806', 32.096864, -106.596343) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:34:19.140931', '2010-01-05 04:34:19.140931', E'From Huckell Map 2006', 3175, 47) RETURNING "id"[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSite Load (0.3ms)[0m   [0mSELECT * FROM "sites" WHERE ("sites"."lng" = E'34.00947' AND "sites"."lat" = E'-108.541227') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "sites" ("name", "region", "created_at", "country", "updated_at", "lng", "lat") VALUES(E'Tularosa Cave', E'Southwest', '2010-01-05 04:34:19.143531', E'US', '2010-01-05 04:34:19.143531', 34.00947, -108.541227) RETURNING "id"[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:34:19.145944', '2010-01-05 04:34:19.145944', E'1920+/-40 location From Huckell Map 2006', 1920, 48) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSite Load (0.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."lng" = E'32.31975' AND "sites"."lat" = E'-111.052713') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "sites" ("name", "region", "created_at", "country", "updated_at", "lng", "lat") VALUES(E'Valley Farms', E'Southwest', '2010-01-05 04:34:19.148768', E'US', '2010-01-05 04:34:19.148768', 32.31975, -111.052713) RETURNING "id"[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:34:19.150878', '2010-01-05 04:34:19.150878', E'Huckle 2006, HOM:100 3145+/-50', 3145, 49) RETURNING "id"[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSite Load (0.2ms)[0m   [0mSELECT * FROM "sites" WHERE ("sites"."lng" = E'32.45' AND "sites"."lat" = E'-111.05') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mINSERT INTO "sites" ("name", "region", "created_at", "country", "updated_at", "lng", "lat") VALUES(E'West End', E'Southwest', '2010-01-05 04:34:19.153516', E'US', '2010-01-05 04:34:19.153516', 32.45, -111.05) RETURNING "id"[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO "maize_records" ("created_at", "updated_at", "description", "age", "site_id") VALUES('2010-01-05 04:34:19.155664', '2010-01-05 04:34:19.155664', E'', 2735, 50) RETURNING "id"[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#index (for 127.0.0.1 at 2010-01-04 20:34:22) [GET]
+  [4;35;1mMaizeRecord Load (2.7ms)[0m   [0mSELECT * FROM "maize_records" ORDER BY id ASC[0m
+  [4;36;1mSite Load (1.4ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."id" IN (44,33,22,11,6,45,34,23,12,7,46,35,24,13,8,47,36,25,14,9,48,37,26,15,50,49,38,27,16,40,39,28,17,1,41,30,29,18,2,42,31,20,19,3,43,32,21,10,4,5)) [0m
+Rendering maize_records/index
+Rendered maize_records/_maize_record (4.6ms)
+Rendered maize_records/_maize_record (3.2ms)
+Rendered maize_records/_maize_record (3.1ms)
+Rendered maize_records/_maize_record (3.1ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (4.8ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (3.5ms)
+Rendered maize_records/_maize_record (3.3ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (3.7ms)
+Rendered maize_records/_maize_record (3.1ms)
+Rendered maize_records/_maize_record (4.9ms)
+Rendered maize_records/_maize_record (2.9ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (4.2ms)
+Rendered maize_records/_maize_record (3.2ms)
+Rendered maize_records/_maize_record (3.3ms)
+Rendered maize_records/_maize_record (3.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (4.3ms)
+Rendered maize_records/_maize_record (3.2ms)
+Rendered maize_records/_maize_record (3.6ms)
+Rendered maize_records/_maize_record (2.9ms)
+Rendered maize_records/_maize_record (3.3ms)
+Rendered maize_records/_maize_record (4.6ms)
+Rendered maize_records/_maize_record (4.4ms)
+Rendered maize_records/_maize_record (2.9ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Completed in 274ms (View: 250, DB: 4) | 200 OK [http://localhost/maize_records]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#edit (for 127.0.0.1 at 2010-01-04 20:34:24) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mMaizeRecord Load (0.6ms)[0m   [0mSELECT * FROM "maize_records" WHERE ("maize_records"."id" = 1) [0m
+Rendering maize_records/edit
+Rendered maize_records/_fields (1.8ms)
+Rendered maize_records/_form (4.4ms)
+Completed in 14ms (View: 5, DB: 1) | 200 OK [http://localhost/maize_records/1/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#update (for 127.0.0.1 at 2010-01-04 20:38:16) [PUT]
+  Parameters: {"commit"=>"Save", "maize_record"=>{"description"=>"(2730ñ2350 cal B.P. at two-sigmas; Beta-103315 Zarillo et al 2008:5007) estimated using oxcal with 2490 +/- 40", "age"=>"2490", "site_id"=>"1"}, "authenticity_token"=>"n3csn/5aD154lD/022BzmbY+0GE8FSqAtguQffdVIQ4=", "id"=>"1"}
+  [4;36;1mMaizeRecord Load (0.9ms)[0m   [0;1mSELECT * FROM "maize_records" WHERE ("maize_records"."id" = 1) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMaizeRecord Update (0.4ms)[0m   [0;1mUPDATE "maize_records" SET "updated_at" = '2010-01-05 04:38:16.409085', "description" = E'(2730ñ2350 cal B.P. at two-sigmas; Beta-103315 Zarillo et al 2008:5007) estimated using oxcal with 2490 +/- 40' WHERE "id" = 1[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/maize_records
+Completed in 15ms (DB: 2) | 302 Found [http://localhost/maize_records/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#index (for 127.0.0.1 at 2010-01-04 20:38:16) [GET]
+  [4;36;1mMaizeRecord Load (2.4ms)[0m   [0;1mSELECT * FROM "maize_records" ORDER BY id ASC[0m
+  [4;35;1mSite Load (1.3ms)[0m   [0mSELECT * FROM "sites" WHERE ("sites"."id" IN (44,33,22,11,6,45,34,23,12,7,46,35,24,13,8,47,36,25,14,9,48,37,26,15,50,49,38,27,16,40,39,28,17,1,41,30,29,18,2,42,31,20,19,3,43,32,21,10,4,5)) [0m
+Rendering maize_records/index
+Rendered maize_records/_maize_record (3.9ms)
+Rendered maize_records/_maize_record (3.6ms)
+Rendered maize_records/_maize_record (3.1ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (3.2ms)
+Rendered maize_records/_maize_record (4.5ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (3.0ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Completed in 172ms (View: 150, DB: 4) | 200 OK [http://localhost/maize_records]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#edit (for 127.0.0.1 at 2010-01-04 20:38:18) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mMaizeRecord Load (0.7ms)[0m   [0;1mSELECT * FROM "maize_records" WHERE ("maize_records"."id" = 1) [0m
+Rendering maize_records/edit
+Rendered maize_records/_fields (2.0ms)
+Rendered maize_records/_form (4.8ms)
+Completed in 16ms (View: 6, DB: 1) | 200 OK [http://localhost/maize_records/1/edit]
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#index (for 127.0.0.1 at 2010-01-04 20:38:57) [GET]
+  [4;35;1mMaizeRecord Load (2.3ms)[0m   [0mSELECT * FROM "maize_records" ORDER BY id ASC[0m
+  [4;36;1mSite Load (1.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."id" IN (44,33,22,11,6,45,34,23,12,7,46,35,24,13,8,47,36,25,14,9,48,37,26,15,50,49,38,27,16,40,39,28,17,1,41,30,29,18,2,42,31,20,19,3,43,32,21,10,4,5)) [0m
+Rendering maize_records/index
+Rendered maize_records/_maize_record (4.0ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (78.4ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.9ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Completed in 243ms (View: 223, DB: 4) | 200 OK [http://localhost/maize_records]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#index (for 127.0.0.1 at 2010-01-04 20:39:16) [GET]
+  [4;35;1mMaizeRecord Load (2.3ms)[0m   [0mSELECT * FROM "maize_records" ORDER BY id ASC[0m
+  [4;36;1mSite Load (1.3ms)[0m   [0;1mSELECT * FROM "sites" WHERE ("sites"."id" IN (44,33,22,11,6,45,34,23,12,7,46,35,24,13,8,47,36,25,14,9,48,37,26,15,50,49,38,27,16,40,39,28,17,1,41,30,29,18,2,42,31,20,19,3,43,32,21,10,4,5)) [0m
+Rendering maize_records/index
+Rendered maize_records/_maize_record (3.8ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.9ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.6ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.9ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.7ms)
+Rendered maize_records/_maize_record (2.8ms)
+Completed in 166ms (View: 146, DB: 4) | 200 OK [http://localhost/maize_records]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#edit (for 127.0.0.1 at 2010-01-04 20:39:20) [GET]
+  Parameters: {"id"=>"28"}
+  [4;35;1mMaizeRecord Load (0.5ms)[0m   [0mSELECT * FROM "maize_records" WHERE ("maize_records"."id" = 28) [0m
+Rendering maize_records/edit
+Rendered maize_records/_fields (1.8ms)
+Rendered maize_records/_form (4.5ms)
+Completed in 14ms (View: 5, DB: 1) | 200 OK [http://localhost/maize_records/28/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#edit (for 127.0.0.1 at 2010-01-04 20:39:28) [GET]
+  Parameters: {"id"=>"12"}
+  [4;36;1mMaizeRecord Load (0.5ms)[0m   [0;1mSELECT * FROM "maize_records" WHERE ("maize_records"."id" = 12) [0m
+Rendering maize_records/edit
+Rendered maize_records/_fields (1.8ms)
+Rendered maize_records/_form (4.2ms)
+Completed in 14ms (View: 5, DB: 1) | 200 OK [http://localhost/maize_records/12/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#edit (for 127.0.0.1 at 2010-01-04 20:39:31) [GET]
+  Parameters: {"id"=>"9"}
+  [4;35;1mMaizeRecord Load (0.5ms)[0m   [0mSELECT * FROM "maize_records" WHERE ("maize_records"."id" = 9) [0m
+Rendering maize_records/edit
+Rendered maize_records/_fields (1.8ms)
+Rendered maize_records/_form (4.6ms)
+Completed in 15ms (View: 6, DB: 1) | 200 OK [http://localhost/maize_records/9/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#edit (for 127.0.0.1 at 2010-01-04 20:39:34) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mMaizeRecord Load (0.5ms)[0m   [0;1mSELECT * FROM "maize_records" WHERE ("maize_records"."id" = 5) [0m
+Rendering maize_records/edit
+Rendered maize_records/_fields (1.7ms)
+Rendered maize_records/_form (4.1ms)
+Completed in 14ms (View: 5, DB: 1) | 200 OK [http://localhost/maize_records/5/edit]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET client_min_messages TO 'panic'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET client_min_messages TO 'notice'[0m
+
+
+Processing MaizeRecordsController#edit (for 127.0.0.1 at 2010-01-04 20:39:36) [GET]
+  Parameters: {"id"=>"17"}
+  [4;35;1mMaizeRecord Load (0.6ms)[0m   [0mSELECT * FROM "maize_records" WHERE ("maize_records"."id" = 17) [0m
+Rendering maize_records/edit
+Rendered maize_records/_fields (1.7ms)
+Rendered maize_records/_form (4.0ms)
+Completed in 13ms (View: 5, DB: 1) | 200 OK [http://localhost/maize_records/17/edit]
