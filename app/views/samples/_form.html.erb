@@ -1,0 +1,5 @@
+<% form_for maize_record do |f| %>
+  <%= render :partial => 'fields', :locals => {:f => f} %>
+  <%= f.submit 'Save' %>
+<% end %>
+<%= link_to "Back", maize_records_path  %>

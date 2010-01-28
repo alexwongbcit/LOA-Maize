@@ -1,4 +1,8 @@
 ActionController::Routing::Routes.draw do |map|
+  map.resources :publications
+
+  map.resources :references
+
   # The priority is based upon order of creation: first created -> highest priority.
 
   # Sample of regular route:
@@ -34,6 +38,8 @@ ActionController::Routing::Routes.draw do |map|
   # map.root :controller => "welcome"
 
   # See how all your routes lay out with "rake routes"
+
+  map.root :controller => 'maize_records'
 
   map.resources :maize_records
   map.resources :sites
