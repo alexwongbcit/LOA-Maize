@@ -1,3 +1,2 @@
-<h1>MaizeRecords#edit</h1>
-<p>Find me in app/views/maize_records/edit.html.erb</p>
-<%= render :partial => 'form', :locals => {:maize_record => @maize_record} %>
+<h1><%= link_to 'Home', root_path %> &raquo; <%= link_to 'Samples', samples_path %> &raquo; Edit</h1>
+<%= render :partial => 'form', :locals => {:sample => @sample} %>

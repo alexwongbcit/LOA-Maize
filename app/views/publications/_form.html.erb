@@ -1,5 +1,5 @@
-<% form_for sample do |f| %>
+<% form_for publication do |f| %>
   <%= render :partial => 'fields', :locals => {:f => f} %>
   <%= f.submit 'Save Record' %>
 <% end %>
-<%= link_to "Back", samples_path  %>
+<%= link_to "Back", publication_path %>

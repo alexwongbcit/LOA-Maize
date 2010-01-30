@@ -1,6 +1,6 @@
 <tr>
-  <td><%= maize_record.id %></td>
-  <td><%= maize_record.age %></td>
-  <td><%= maize_record.site.name %></td>
-  <td><%= link_to 'Edit', edit_maize_record_path(maize_record) %> | <%= link_to 'Delete', maize_record_path(maize_record), :method => :destroy, :confirm => "Are you sure you want to delete record #{maize_record.id}?" %></td>
+  <td><%= sample.lab_number %></td>
+  <td><%= sample.site.name %></td>
+  <td><%= sample.radiocarbon_age_bp %></td>
+  <td><%= link_to 'Edit', edit_sample_path(sample) %> | <%= link_to 'Delete', sample_path(sample), :method => :destroy, :confirm => "Are you sure you want to delete record #{sample.id}?" %></td>
 </tr>

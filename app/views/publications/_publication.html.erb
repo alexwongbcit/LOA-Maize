@@ -1,0 +1,5 @@
+<tr>
+  <td><%= publication.id %></td>
+  <td><%= publication.citation %></td>
+  <td><%= link_to 'Edit', edit_publication_path(publication) %> | <%= link_to 'Delete', publication_path(publication), :method => :destroy, :confirm => "Are you sure you want to delete record #{publication.id}?" %></td>
+</tr>

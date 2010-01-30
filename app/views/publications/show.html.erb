@@ -1,0 +1,9 @@
+<h1><%= link_to 'Home', root_path %> &raquo; <%= link_to 'Publications', publications_path %> &raquo; <%= @publication.id %></h1>
+<%= link_to 'Edit this publication', edit_publication_path(@publication) %>
+<h1>Publication #<%= @publication.id %></h1>
+<h2>Citation</h2>
+<%= @publication.citation  %>
+<h2>Samples Referencing this Publication</h2>
+<% for reference in @publication.references %>
+  <%= link_to "Sample #{reference.sample.id} from #{reference.sample.site.name} - reference: #{reference.page}" %>
+<% end %>

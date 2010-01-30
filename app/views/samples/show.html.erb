@@ -1,2 +1,16 @@
-<h1>MaizeRecords#show</h1>
-<p>Find me in app/views/maize_records/show.html.erb</p>
+<h1><%= link_to 'Home', root_path %> &raquo; <%= link_to 'Samples', samples_path %> &raquo; <%= @sample.id %></h1>
+<%= link_to 'Edit this record', edit_sample_path(@sample) %>
+<h1>Sample #<%= @sample.id %></h1>
+<h2>Data</h2>
+<ol>
+  <%= sample_field(@sample, :site, 'Site Name') %>
+  <%= sample_field(@sample, :lab_number, 'Lab Number') %>
+  <%= sample_field(@sample, :radiocarbon_age_bp, 'Radiocarbon Age Before Present') %>
+  <%= sample_field(@sample, :std_dev, 'Standard Deviation') %>
+  <%= sample_field(@sample, :lower_cal_date, 'Lower Calibrated Date') %>
+  <%= sample_field(@sample, :median_cal_date, 'Median Calibrated Date') %>
+  <%= sample_field(@sample, :upper_cal_date, 'Upper Calibrated Date') %>
+  <%= sample_field(@sample, :description, 'Description') %>
+</ol>
+<h2>References</h2>
+<%= render @sample.references %>

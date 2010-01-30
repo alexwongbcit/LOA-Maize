@@ -1,17 +1,31 @@
 <fieldset>
-  <legend>Maize Record</legend>
+  <legend>Sample #<%= f.object.id %></legend>
+  <h3>Edit information about this sample</h3>
   <ol>
     <li>
-      <label for="site_id">Site Id <em>*</em></label>
-      <%= f.text_field :site_id %>
+      <label for='age'>Site Name</label>
+      <%= text_field_tag :site_name %> (will automatically suggest existing site names as you type)
     </li>
-    <li>
-      <label for="age">Age <em>*</em></label>
-      <%= f.text_field :age %>
-    </li>
-    <li>
-      <label for="description">Description</label>
-      <%= f.text_area :description %>
-    </li>
+<%#= sample_form_field(f, :text_field, :site_id, 'Site Id') %>
+    <%= form_field(f, :text_field, :lab_number, 'Lab Number') %>
+    <%= form_field(f, :text_field, :radiocarbon_age_bp, 'Radiocarbon Age Before Present') %>
+    <%= form_field(f, :text_field, :std_dev, 'Standard Deviation') %>
+    <%= form_field(f, :text_field, :lower_cal_date, 'Lower Calibrated Date') %>
+    <%= form_field(f, :text_field, :median_cal_date, 'Median Calibrated Date') %>
+    <%= form_field(f, :text_field, :upper_cal_date, 'Upper Calibrated Date') %>
+    <%= form_field(f, :text_area, :description, 'Description') %>
   </ol>
+</fieldset>
+<fieldset>
+  <legend>References</legend>
+  <h3>Add References to this sample. Type a publication name and click 'add reference'.</h3>
+  Note: After you save your record, you can edit the information about each Publication in the 'Publications' section
+  <% fields_for :reference do |r| %>
+    <ol>
+      <%= form_field(r, :text_field, :publication_name, 'Publication Name') %>
+      <%= form_field(r, :text_area, :page, 'Reference (page number, range, etc.)') %>
+    </ol>
+    <%= button_to_function 'Add Reference', '' %>
+    <hr/>
+  <% end %>
 </fieldset>
