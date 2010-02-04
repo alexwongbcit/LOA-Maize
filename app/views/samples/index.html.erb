@@ -1,11 +1,18 @@
-<h1><%= link_to 'Home', root_path %> &raquo; Samples</h1>
+<% content_for :nav do %>
+  <h1><%= link_to 'Home', root_path %> &raquo; Samples</h1>
+<% end %>
 <p>All samples are listed here.</p>
 <table>
   <thead>
     <tr>
       <th>Lab Number</th>
       <th>Site Name</th>
-      <th>Age</th>
+      <th>Radiocarbon Age Before Present</th>
+      <th>Standard Deviation</th>
+      <th>Lower Calibrated Date</th>
+      <th>Median Calibrated Date</th>
+      <th>Upper Calibrated Date</th>
+      <th>Description</th>
     </tr>
   </thead>
   <tbody>

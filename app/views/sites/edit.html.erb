@@ -1,0 +1,5 @@
+<% content_for :nav do %>
+  <h1><%= link_to 'Home', root_path %> &raquo; <%= link_to 'Sites', sites_path %> &raquo; Edit</h1>
+<% end %>
+<%= render :partial => 'form', :locals => {:site => @site} %>
+<%= link_to "Back", sites_path %>

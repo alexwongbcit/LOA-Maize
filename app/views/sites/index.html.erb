@@ -1,0 +1,17 @@
+<% content_for :nav do %>
+  <h1><%= link_to 'Home', root_path %> &raquo; Sites</h1>
+<% end %>
+<p>All sites are listed here.</p>
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Lattitude</th>
+      <th>Longitude</th>
+      <th>Location Name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <%= render @sites %>
+  </tbody>
+</table>

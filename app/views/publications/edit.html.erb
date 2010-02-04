@@ -1,2 +1,6 @@
-<h1><%= link_to 'Home', root_path %> &raquo; <%= link_to 'Publication', samples_path %> &raquo; Edit</h1>
+<% content_for :nav do %>
+  <h1><%= link_to 'Home', root_path %> &raquo; <%= link_to 'Publication', publications_path %> &raquo; Edit</h1>
+<% end %>
 <%= render :partial => 'form', :locals => {:publication => @publication} %>
+
+

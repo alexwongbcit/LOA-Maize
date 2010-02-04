@@ -1,5 +1,7 @@
-<h1>Home</h1>
+<% content_for :nav do %>
+  <h1>Home</h1>
+  <%= link_to 'Samples', samples_path %>
+  <%= link_to 'Publications', publications_path %>
+  <%= link_to 'Sites', sites_path %>
+<% end %>
 <p>Welcome to the Laboratory of Archaelology's Maize Project</p>
-<%= link_to 'Samples', samples_path %>
-<%= link_to 'Publications', publications_path %>
-<%= link_to 'Sites', sites_path %>

@@ -1,0 +1,10 @@
+<fieldset>
+  <legend>Site #<%= f.object.id %></legend>
+  <h3>Edit information about this site</h3>
+  <ol>
+    <%= form_field(f, :text_field, :name, 'Name') %>
+    <%= form_field(f, :text_field, :lat, 'Lattitude') %>
+    <%= form_field(f, :text_field, :lng, 'Longitude') %>
+    <%= form_field(f, :text_field, :location_name, 'Location Name') %>
+  </ol>
+</fieldset>

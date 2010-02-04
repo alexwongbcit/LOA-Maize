@@ -2,5 +2,10 @@
   <td><%= sample.lab_number %></td>
   <td><%= sample.site.name %></td>
   <td><%= sample.radiocarbon_age_bp %></td>
+  <td><%= sample.std_dev %></td>
+  <td><%= sample.lower_cal_date %></td>
+  <td><%= sample.median_cal_date %></td>
+  <td><%= sample.upper_cal_date %></td>
+  <td><%= sample.description %></td>
   <td><%= link_to 'Edit', edit_sample_path(sample) %> | <%= link_to 'Delete', sample_path(sample), :method => :destroy, :confirm => "Are you sure you want to delete record #{sample.id}?" %></td>
 </tr>

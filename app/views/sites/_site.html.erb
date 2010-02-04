@@ -1,0 +1,7 @@
+<tr>
+  <td><%= site.name %></td>
+  <td><%= site.lat %></td>
+  <td><%= site.lng %></td>
+  <td><%= site.location_name %></td>
+  <td><%= link_to 'Edit', edit_site_path(site) %> | <%= link_to 'Delete', site_path(site), :method => :destroy, :confirm => "Are you sure you want to delete record #{site.id}?" %></td>
+</tr>

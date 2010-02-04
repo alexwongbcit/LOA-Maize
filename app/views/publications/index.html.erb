@@ -1,4 +1,6 @@
-<h1><%= link_to 'Home', root_path %> &raquo; Publications</h1>
+<% content_for :nav do %>
+  <h1><%= link_to 'Home', root_path %> &raquo; Publications</h1>
+<% end %>
 <p>All publications are listed here.</p>
 <table>
   <thead>
